@@ -1,4 +1,4 @@
-
+---
 title: "Mathematics and Physics Teacher"
 collection: teaching
 type: "Secondary Education"
