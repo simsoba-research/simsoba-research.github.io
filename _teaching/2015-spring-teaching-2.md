@@ -1,20 +1,22 @@
 ---
-title: "Teaching experience 2"
-collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
----
 
-This is a description of a teaching experience. You can use markdown like any other post.
+## University Tutoring
+<u></u>
 
-Heading 1
-======
+**Tutor, Big Data Master's Program (Volunteer)**, École Polytechnique de Lomé, Togo  
+*2023*
 
-Heading 2
-======
+Provided tutorial instruction in inferential statistics and optimization to first-year Master's students enrolled in the Big Data program.
 
-Heading 3
-======
+**Inferential Statistics Modules:**
+* Hypothesis Testing
+* Confidence Intervals
+* Parameter Estimation
+* Likelihood-Based Inference
+* Sampling Distributions and Asymptotic Results
+
+**Optimization Modules:**
+* Unconstrained Optimization
+* Constrained Optimization (Lagrange Multipliers and KKT Conditions)
+* Gradient-Based Optimization Methods
+* Convex Optimization Fundamentals
