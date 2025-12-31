@@ -9,26 +9,28 @@ author_profile: true
 <u></u>
 
 **Mathematics and Physics Teacher**, Kara, Togo  
-[cite_start]*2019 – 2023* [cite: 77]
+*2019 – 2023*
 
-[cite_start]Delivered high school-level instruction with a focus on analytical reasoning and systematic problem-solving[cite: 78].
+Delivered high school-level instruction in mathematics and physics to diverse student cohorts, with a strong emphasis on conceptual understanding, analytical reasoning, and systematic problem-solving.
 
-[cite_start]**Mathematics Topics:** [cite: 80]
-* Probability and Combinatorics [cite: 81]
-* [cite_start]Set Theory and Logic [cite: 82, 89]
-* [cite_start]Spatial Geometry (Three-Dimensional) [cite: 83]
-* Polynomials and Homographic Functions [cite: 84]
-* [cite_start]Continuity and Differentiability [cite: 85]
-* [cite_start]Arithmetic and Geometric Sequences [cite: 87]
-* Complex Numbers [cite: 88]
+**Mathematics Topics:**
+* Probability and Combinatorics
+* Set Theory
+* Spatial Geometry (Three-Dimensional Geometry)
+* Second-Degree Polynomial and Homographic Functions
+* Continuity and Differentiability of Functions
+* Arithmetic and Geometric Sequences
+* Complex Numbers
+* Methods of Mathematical Proof and Logical Reasoning
 
-**Physics Topics:** [cite: 90]
-* [cite_start]Kinematics and Motion under Gravity [cite: 91, 92]
-* [cite_start]Mechanical and Electrical Oscillations [cite: 93]
-* Wave Phenomena and Propagation [cite: 94]
-* [cite_start]Electrostatics [cite: 95]
-* [cite_start]Alternating Current and RLC Circuits [cite: 96]
-* Thermodynamics (Ideal Gases and Processes) [cite: 97]
+**Physics Topics:**
+* Kinematics
+* Free Fall and Motion under Gravity
+* Mechanical and Electrical Oscillations
+* Wave Phenomena and Propagation
+* Electrostatics
+* Alternating Current and RLC Circuits
+* Thermodynamics (Ideal Gases and Thermodynamic Processes)
 
 ---
 
@@ -36,14 +38,19 @@ author_profile: true
 <u></u>
 
 **Tutor, Big Data Master's Program (Volunteer)**, École Polytechnique de Lomé, Togo  
-*2023* [cite: 100, 101]
+*2023*
 
-**Inferential Statistics Modules:** [cite: 103]
-* [cite_start]Hypothesis Testing and Confidence Intervals [cite: 104, 105]
-* [cite_start]Parameter Estimation and Likelihood-Based Inference [cite: 106, 107]
-* Sampling Distributions and Asymptotic Results [cite: 108]
+Provided tutorial instruction in inferential statistics and optimization to first-year Master's students enrolled in the Big Data program.
 
-**Optimization Modules:** [cite: 109]
-* [cite_start]Unconstrained and Constrained Optimization [cite: 110, 111]
-* [cite_start]Lagrange Multipliers and KKT Conditions [cite: 111]
-* Gradient-Based and Convex Optimization [cite: 112, 113]
+**Inferential Statistics Modules:**
+* Hypothesis Testing
+* Confidence Intervals
+* Parameter Estimation
+* Likelihood-Based Inference
+* Sampling Distributions and Asymptotic Results
+
+**Optimization Modules:**
+* Unconstrained Optimization
+* Constrained Optimization (Lagrange Multipliers and KKT Conditions)
+* Gradient-Based Optimization Methods
+* Convex Optimization Fundamentals
