@@ -1,10 +1,12 @@
 ---
-
-## University Tutoring
-<u></u>
-
-**Tutor, Big Data Master's Program (Volunteer)**, École Polytechnique de Lomé, Togo  
-*2023*
+title: "Tutor - Big Data Master's Program"
+collection: teaching
+type: "Graduate Tutoring (Volunteer)"
+permalink: /teaching/tutor-polytechnic-lome
+venue: "École Polytechnique de Lomé"
+date: 2023-01-01
+location: "Lomé, Togo"
+---
 
 Provided tutorial instruction in inferential statistics and optimization to first-year Master's students enrolled in the Big Data program.
 
