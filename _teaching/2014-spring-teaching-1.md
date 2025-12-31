@@ -13,7 +13,7 @@ layout: single
 
 Delivered high school-level instruction in mathematics and physics to diverse student cohorts, with a strong emphasis on conceptual understanding, analytical reasoning, and systematic problem-solving.
 
-## Mathematics Topics
+## Mathematics Subjects
 <u></u>
 
 * **Probability and Combinatorics**
@@ -25,7 +25,7 @@ Delivered high school-level instruction in mathematics and physics to diverse st
 * **Complex Numbers**
 * **Methods of Mathematical Proof and Logical Reasoning**
 
-## Physics Topics
+## Physics Subjects
 <u></u>
 
 * **Kinematics**
