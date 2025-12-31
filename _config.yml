@@ -5,37 +5,35 @@ title                   : "Kouyakou-Abalo SIMSOBA"
 title_separator         : "-"
 name                    : "Kouyakou-Abalo SIMSOBA"
 description             : "Google DeepMind Scholar | AI for Science Researcher"
-url                     : "simsoba-research/simsoba-research.github.io"
+url                     : "https://simsoba-research.github.io"
 baseurl                 : ""
 repository              : "simsoba-research/simsoba-research.github.io"
 repository_search       : false
 
 # Site Author - Sidebar Profile
 author:
-  avatar           : "profile.png"
-  name             : "Kouyakou-Abalo SIMSOBA"
+  avatar                : "profile.png"
+  name                  : "Kouyakou-Abalo SIMSOBA"
   bio: |
-  
-I am a **Google DeepMind Scholar** and a Master's student in **Artificial Intelligence for Science** at the African Institute for Mathematical Sciences (AIMS), South Africa. My research focuses on the intersection of deep learning and mathematical statistics, specifically developing robust architectures for time-series forecasting.
+    I am a **Google DeepMind Scholar** and a Master's student in **Artificial Intelligence for Science** at the African Institute for Mathematical Sciences (AIMS), South Africa. My research focuses on the intersection of deep learning and mathematical statistics, specifically developing robust architectures for time-series forecasting.
 
-Recently, I published research in **IEEE Access** introducing a novel *Hybrid Minkowski-Log-Cosh Loss Function* to improve LSTM performance on noisy datasets. My background includes a Joint M.Sc. in Mathematics from PAUSTI, Kenya, and significant experience in teaching advanced Mathematics and Physics.
+    Recently, I published research in **IEEE Access** introducing a novel *Hybrid Minkowski-Log-Cosh Loss Function* to improve LSTM performance on noisy datasets. My background includes a Joint M.Sc. in Mathematics from PAUSTI, Kenya, and significant experience in teaching advanced Mathematics and Physics.
 
-### Research Interests
-* **Deep Learning:** LSTM Architectures and ANN Optimization.
-* **Mathematical Statistics:** Robust Loss Functions and Inferential Statistics.
-* **AI for Science:** Applying machine learning to socio-economic and scientific datasets.
-  location         : "Cape Town, South Africa"
+    ### Research Interests
+    * **Deep Learning:** LSTM Architectures and ANN Optimization.
+    * **Mathematical Statistics:** Robust Loss Functions and Inferential Statistics.
+    * **AI for Science:** Applying machine learning to socio-economic and scientific datasets.
+  location              : "Cape Town, South Africa"
   employer: |
     AIMS, South Africa
-  
-  email            : "kouyakou@aims.ac.za"
+  email                 : "kouyakou@aims.ac.za"
 
   # Academic and Professional Links
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=RtYAMMoAAAAJ"
-  orcid            : "https://orcid.org/0009-0005-4050-5040"
-  researchgate     : "https://www.researchgate.net/profile/Kouyakou-Abalo-Simsoba"
-  github           : "Abalo39"
-  linkedin         : "https://www.linkedin.com/in/abalo-simsoba-803a75244/"
+  googlescholar         : "https://scholar.google.com/citations?hl=en&user=RtYAMMoAAAAJ"
+  orcid                 : "https://orcid.org/0009-0005-4050-5040"
+  researchgate          : "https://www.researchgate.net/profile/Kouyakou-Abalo-Simsoba"
+  github                : "Abalo39"
+  linkedin              : "https://www.linkedin.com/in/abalo-simsoba-803a75244/"
 
 # Publication Category Headings
 publication_category:
