@@ -4,24 +4,19 @@ collection: teaching
 type: "Graduate Tutoring (Volunteer)"
 permalink: /teaching/tutor-polytechnic-lome
 venue: "École Polytechnique de Lomé"
+date: 2023-01-01
 location: "Lomé, Togo"
-layout: single
 ---
-
-### Tutor - Big Data Master's Program
-<u></u>
 
 Provided tutorial instruction in inferential statistics and optimization to first-year Master's students enrolled in the Big Data program.
 
-**Inferential Statistics Modules**
-* Hypothesis Testing
-* Confidence Intervals
-* Parameter Estimation
-* Likelihood-Based Inference
+**Inferential Statistics Modules:**
+* Hypothesis Testing and Confidence Intervals
+* Parameter Estimation and Likelihood-Based Inference
 * Sampling Distributions and Asymptotic Results
 
-**Optimization Modules**
-* Unconstrained Optimization
-* Constrained Optimization (Lagrange Multipliers and KKT Conditions)
+**Optimization Modules:**
+* Unconstrained and Constrained Optimization
+* Lagrange Multipliers and KKT Conditions
 * Gradient-Based Optimization Methods
 * Convex Optimization Fundamentals
