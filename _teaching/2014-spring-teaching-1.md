@@ -6,7 +6,7 @@ permalink: /teaching/high-school-kara
 venue: "High Schools in Kara"
 date: 2019-01-01
 location: "Kara, Togo"
-
+---
 
 Delivered high school-level instruction in mathematics and physics to diverse student cohorts, with a strong emphasis on conceptual understanding, analytical reasoning, and systematic problem-solving.
 
