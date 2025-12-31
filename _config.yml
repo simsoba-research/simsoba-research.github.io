@@ -15,14 +15,7 @@ author:
   avatar                : "profile.png"
   name                  : "Kouyakou-Abalo SIMSOBA"
   bio: |
-    I am a **Google DeepMind Scholar** and a Master's student in **Artificial Intelligence for Science** at the African Institute for Mathematical Sciences (AIMS), South Africa. My research focuses on the intersection of deep learning and mathematical statistics, specifically developing robust architectures for time-series forecasting.
-
-    Recently, I published research in **IEEE Access** introducing a novel *Hybrid Minkowski-Log-Cosh Loss Function* to improve LSTM performance on noisy datasets. My background includes a Joint M.Sc. in Mathematics from PAUSTI, Kenya, and significant experience in teaching advanced Mathematics and Physics.
-
-    ### Research Interests
-    * **Deep Learning:** LSTM Architectures and ANN Optimization.
-    * **Mathematical Statistics:** Robust Loss Functions and Inferential Statistics.
-    * **AI for Science:** Applying machine learning to socio-economic and scientific datasets.
+    I am a **Google DeepMind Scholar** and a Master's student in **Artificial Intelligence for Science** at the African Institute for Mathematical Sciences (AIMS), South Africa. 
   location              : "Cape Town, South Africa"
   employer: |
     AIMS, South Africa
