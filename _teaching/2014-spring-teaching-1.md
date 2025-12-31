@@ -8,18 +8,19 @@ date: 2019-01-01
 location: "Kara, Togo"
 ---
 
-Delivered high school-level instruction in mathematics and physics with a strong emphasis on conceptual understanding and systematic problem-solving.
+Delivered high school-level instruction in mathematics and physics to diverse student cohorts, with a strong emphasis on conceptual understanding, analytical reasoning, and systematic problem-solving.
 
-**Mathematics Subjects:**
+**Mathematics Topics:**
 * Probability and Combinatorics
-* Set Theory and Methods of Mathematical Proof
+* Set Theory
 * Spatial Geometry (Three-Dimensional Geometry)
 * Second-Degree Polynomial and Homographic Functions
 * Continuity and Differentiability of Functions
 * Arithmetic and Geometric Sequences
 * Complex Numbers
+* Methods of Mathematical Proof and Logical Reasoning
 
-**Physics Subjects:**
+**Physics Topics:**
 * Kinematics
 * Free Fall and Motion under Gravity
 * Mechanical and Electrical Oscillations
