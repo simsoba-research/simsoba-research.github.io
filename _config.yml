@@ -15,7 +15,7 @@ author:
   avatar                : "profile.png"
   name                  : "Kouyakou-Abalo SIMSOBA"
   bio: |
-    Google DeepMind Scholar | M.Sc. Mathematics (PAUSTI, African Union Scholar) | MSc in  AI for Science at Stellenbosch University 
+    Google DeepMind Scholar | M.Sc. Mathematics (PAUSTI, African Union Scholar) | MSc in AI for Science at Stellenbosch University 
   location              : "Cape Town, South Africa"
   employer: |
     AIMS, South Africa
@@ -38,6 +38,8 @@ publication_category:
     title: "Conference Papers"
 
 # Site Settings
+minimal_mistakes_skin    : "default" # FIXED: This line removes the gear icon
+search                   : false     # FIXED: Prevents search icon placeholder
 breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
