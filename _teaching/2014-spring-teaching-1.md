@@ -1,15 +1,12 @@
 ---
-layout: single
-title: "Teaching"
-permalink: /teaching/
-author_profile: true
+title: "Mathematics and Physics Teacher"
+collection: teaching
+type: "Secondary Education"
+permalink: /teaching/high-school-kara
+venue: "High Schools in Kara"
+date: 2019-01-01
+location: "Kara, Togo"
 ---
-
-## Secondary Education
-<u></u>
-
-**Mathematics and Physics Teacher**, Kara, Togo  
-*2019 – 2023*
 
 Delivered high school-level instruction in mathematics and physics to diverse student cohorts, with a strong emphasis on conceptual understanding, analytical reasoning, and systematic problem-solving.
 
@@ -31,26 +28,3 @@ Delivered high school-level instruction in mathematics and physics to diverse st
 * Electrostatics
 * Alternating Current and RLC Circuits
 * Thermodynamics (Ideal Gases and Thermodynamic Processes)
-
----
-
-## University Tutoring
-<u></u>
-
-**Tutor, Big Data Master's Program (Volunteer)**, École Polytechnique de Lomé, Togo  
-*2023*
-
-Provided tutorial instruction in inferential statistics and optimization to first-year Master's students enrolled in the Big Data program.
-
-**Inferential Statistics Modules:**
-* Hypothesis Testing
-* Confidence Intervals
-* Parameter Estimation
-* Likelihood-Based Inference
-* Sampling Distributions and Asymptotic Results
-
-**Optimization Modules:**
-* Unconstrained Optimization
-* Constrained Optimization (Lagrange Multipliers and KKT Conditions)
-* Gradient-Based Optimization Methods
-* Convex Optimization Fundamentals
