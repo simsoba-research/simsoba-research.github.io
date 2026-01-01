@@ -56,16 +56,6 @@ B.Sc. in Mathematics, Statistics and Socio-economic Applications
 
 ## Teaching Experience
 <u></u>
-**Mathematics and Physics Teacher**, Kara, Togo  
-*2019–2023*  
-* Delivered comprehensive high school instruction in Physics and Mathematics with an emphasis on conceptual understanding and systematic problem-solving.  
-
-**Tutor (Volunteer)**, École Polytechnique de Lomé, Togo  
-*2023*  
-* Instructed Master's students in the Big Data program on Inferential Statistics and Optimization techniques.  
-
-## Teaching Experience
-<u></u>
 **Mathematics and Physics Teacher**, High Schools in Kara, Togo  
 *2019 – 2023*  
 *Delivered comprehensive high school instruction focusing on conceptual understanding and systematic problem-solving.*  
