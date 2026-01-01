@@ -26,8 +26,7 @@ author:
   orcid                 : "https://orcid.org/0009-0005-4050-5040"
   researchgate          : "https://www.researchgate.net/profile/Kouyakou-Abalo-Simsoba"
   github                : "Abalo39"
-  linkedin_url              : "https://www.linkedin.com/in/abalo-simsoba-803a75244/"
-
+  linkedin_url: "https://www.linkedin.com/in/abalo-simsoba-803a75244/" # Use linkedin_url
 # Publication Category Headings
 publication_category:
   books:
