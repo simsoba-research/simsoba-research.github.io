@@ -62,6 +62,40 @@ African Union Scholar | 2023 – 2025
 **Tutor (Volunteer)**, École Polytechnique de Lomé, Togo  
 *2023* * Instructed Master's students in the Big Data program on Inferential Statistics and Optimization techniques.
 
+## Teaching Experience
+<u></u>
+
+**Mathematics and Physics Teacher**, High Schools in Kara, Togo  
+*2019 – 2023* *Delivered comprehensive high school instruction focusing on conceptual understanding and systematic problem-solving.*
+
+**Mathematics Modules:**
+* Probability and Combinatorics
+* Set Theory and Logic
+* Spatial Geometry (Three-Dimensional)
+* Polynomial and Homographic Functions
+* Continuity and Differentiability
+* Arithmetic and Geometric Sequences
+* Complex Numbers
+
+**Physics Modules:**
+* Kinematics and Motion under Gravity
+* Mechanical and Electrical Oscillations
+* Wave Phenomena and Propagation
+* Electrostatics and RLC Circuits
+* Thermodynamics (Ideal Gases and Processes)
+
+**Tutor (Volunteer)**, École Polytechnique de Lomé, Togo  
+*2023* *Instructed Master's students in the Big Data program on advanced statistical and mathematical techniques.*
+
+**Inferential Statistics:**
+* Hypothesis Testing and Confidence Intervals
+* Parameter Estimation and Likelihood-Based Inference
+* Sampling Distributions and Asymptotic Results
+
+**Optimization:**
+* Unconstrained and Constrained Optimization
+* Lagrange Multipliers and KKT Conditions
+* Gradient-Based and Convex Optimization
 ## Technical Skills
 <u></u>
 
