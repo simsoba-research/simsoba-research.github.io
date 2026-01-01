@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-# Hello! I am Kouyakou-Abalo SIMSOBA 👋
+## Hey! I am Kouyakou-Abalo SIMSOBA👋
 
 I am a **Google DeepMind Scholar** currently pursuing an **M.Sc. in Artificial Intelligence for Science** at the African Institute for Mathematical Sciences (AIMS) in South Africa. My mission is to bridge the gap between complex mathematical theory and transformative AI solutions.
 
