@@ -9,7 +9,7 @@
 # BASIC SITE CONFIGURATION
 # ========================
 locale: "en-US"
-site_theme: "default"
+theme: "minimal-mistakes-jekyll"
 title: "Kouyakou-Abalo SIMSOBA"
 title_separator: "-"
 name: "Kouyakou-Abalo SIMSOBA"
@@ -19,9 +19,8 @@ description: "Google DeepMind Scholar | AI for Science Researcher"
 # SITE URL & REPOSITORY
 # =====================
 url: "https://simsoba-research.github.io"
-baseurl: ""
+baseurl: ""  # No subdirectory
 repository: "simsoba-research/simsoba-research.github.io"
-repository_search: false
 
 # ====================================
 # AUTHOR PROFILE - SIDEBAR INFORMATION
@@ -30,33 +29,23 @@ author:
   # Personal Details
   avatar: "profile.png"
   name: "Kouyakou-Abalo SIMSOBA"
-  
+
   # Biography
   bio: |
     Google DeepMind Scholar | 
     M.Sc. Mathematics (PAUSTI, African Union Scholar) | 
     MSc in AI for Science at Stellenbosch University
-  
+
   # Location & Contact
   location: "Cape Town, South Africa"
   employer: "AIMS, South Africa"
   email: "kouyakou@aims.ac.za"
-  
+
   # Academic & Professional Links
-  # ===========================
-  # Google Scholar Profile
   googlescholar: "https://scholar.google.com/citations?hl=en&user=RtYAMMoAAAAJ"
-  
-  # ORCID ID
   orcid: "https://orcid.org/0009-0005-4050-5040"
-  
-  # ResearchGate Profile
   researchgate: "https://www.researchgate.net/profile/Kouyakou-Abalo-Simsoba"
-  
-  # GitHub Profile
   github: "Abalo39"
-  
-  # LinkedIn Profile
   linkedin_url: "https://www.linkedin.com/in/abalo-simsoba-803a75244/"
 
 # ====================================
@@ -73,20 +62,17 @@ publication_category:
 # ========================
 # SITE BEHAVIOR SETTINGS
 # ========================
-# Appearance Settings
-minimal_mistakes_skin: "default"  # Default theme skin
-search: false                     # Disable search functionality
-breadcrumbs: false               # Disable breadcrumb navigation
-
-# Reading & Content
+minimal_mistakes_skin: "default"
+search: false
+breadcrumbs: false
 words_per_minute: 160
 future: true
 read_more: "disabled"
 
-# Additional Features
+# Comments & Additional Features
 talkmap_link: false
 comments:
-  provider: false                # Disable comments
+  provider: false
 
 # ========================
 # FILE MANAGEMENT SETTINGS
@@ -122,7 +108,6 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Markdown Processor
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: "\n\n"
@@ -149,7 +134,6 @@ collections:
 # DEFAULT LAYOUT SETTINGS
 # ========================
 defaults:
-  # Posts Defaults
   - scope:
       path: ""
       type: posts
@@ -158,16 +142,14 @@ defaults:
       author_profile: true
       read_time: true
       share: true
-  
-  # Pages Defaults
+
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  
-  # Teaching Defaults
+
   - scope:
       path: ""
       type: teaching
@@ -175,8 +157,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-  
-  # Publications Defaults
+
   - scope:
       path: ""
       type: publications
@@ -184,8 +165,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-  
-  # Talks Defaults
+
   - scope:
       path: ""
       type: talks
@@ -202,7 +182,7 @@ sass:
   style: compressed
 
 permalink: /:categories/:title/
-timezone: Etc/UTC
+timezone: Africa/Johannesburg
 
 # ========================
 # PLUGINS CONFIGURATION
