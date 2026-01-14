@@ -19,45 +19,29 @@ description: "Google DeepMind Scholar | AI for Science Researcher"
 # SITE URL & REPOSITORY
 # =====================
 url: "https://simsoba-research.github.io"
-baseurl: ""  # No subdirectory
+baseurl: ""
 repository: "simsoba-research/simsoba-research.github.io"
 
 # ====================================
 # AUTHOR PROFILE - SIDEBAR INFORMATION
 # ====================================
 author:
-  # Personal Details
-  avatar: "profile.png"
   name: "Kouyakou-Abalo SIMSOBA"
-
-  # Biography
+  avatar: "/assets/images/profile.png"
   bio: |
-    Google DeepMind Scholar | 
-    M.Sc. Mathematics (PAUSTI, African Union Scholar) | 
+    Google DeepMind Scholar |
+    M.Sc. Mathematics (PAUSTI, African Union Scholar) |
     MSc in AI for Science at Stellenbosch University
-
-  # Location & Contact
   location: "Cape Town, South Africa"
   employer: "AIMS, South Africa"
   email: "kouyakou@aims.ac.za"
 
   # Academic & Professional Links
   googlescholar: "https://scholar.google.com/citations?hl=en&user=RtYAMMoAAAAJ"
-  orcid: "https://orcid.org/0009-0005-4050-5040"
-  researchgate: "https://www.researchgate.net/profile/Kouyakou-Abalo-Simsoba"
+  orcid: "0009-0005-4050-5040"
+  researchgate: "Kouyakou-Abalo-Simsoba"
   github: "Abalo39"
-  linkedin_url: "https://www.linkedin.com/in/abalo-simsoba-803a75244/"
-
-# ====================================
-# PUBLICATION CATEGORY CONFIGURATION
-# ====================================
-publication_category:
-  books:
-    title: "Books"
-  manuscripts:
-    title: "Journal Articles"
-  conferences:
-    title: "Conference Papers"
+  linkedin: "abalo-simsoba-803a75244"
 
 # ========================
 # SITE BEHAVIOR SETTINGS
@@ -69,10 +53,8 @@ words_per_minute: 160
 future: true
 read_more: "disabled"
 
-# Comments & Additional Features
-talkmap_link: false
 comments:
-  provider: false
+  provider: null
 
 # ========================
 # FILE MANAGEMENT SETTINGS
@@ -90,59 +72,37 @@ exclude:
   - .github
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/_main.js
-  - CHANGELOG
-  - LICENSE
   - node_modules
   - package.json*
   - README
   - vendor
 
-keep_files:
-  - .git
-  - .svn
-
 # ========================
 # CONTENT PROCESSING
 # ========================
 encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: "\n\n"
-incremental: false
 
 # ========================
-# COLLECTIONS CONFIGURATION
+# COLLECTIONS
 # ========================
 collections:
   teaching:
     output: true
-    permalink: /:collection/:path/
+    permalink: /teaching/:path/
   publications:
     output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+    permalink: /publications/:path/
   talks:
     output: true
-    permalink: /:collection/:path/
+    permalink: /talks/:path/
 
 # ========================
-# DEFAULT LAYOUT SETTINGS
+# DEFAULT LAYOUTS
 # ========================
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-
   - scope:
       path: ""
       type: pages
@@ -152,30 +112,20 @@ defaults:
 
   - scope:
       path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-
-  - scope:
-      path: ""
       type: publications
     values:
       layout: single
       author_profile: true
       share: true
 
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+# ========================
+# PAGINATION (REQUIRED)
+# ========================
+paginate: 5
+paginate_path: /page:num/
 
 # ========================
-# STYLING & OUTPUT SETTINGS
+# STYLING & OUTPUT
 # ========================
 sass:
   sass_dir: _sass
@@ -185,7 +135,7 @@ permalink: /:categories/:title/
 timezone: Africa/Johannesburg
 
 # ========================
-# PLUGINS CONFIGURATION
+# PLUGINS (GITHUB PAGES SAFE)
 # ========================
 plugins:
   - jekyll-feed
@@ -193,17 +143,3 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-
-# Archive Settings
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
