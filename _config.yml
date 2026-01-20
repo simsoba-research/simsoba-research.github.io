@@ -9,10 +9,10 @@
 # Basic Site Settings
 # ----------------------
 locale: "en-US"
-title: "Kouyakou-Abalo SIMSOBA Serge"
+title: "Kouyakou-Abalo SIMSOBA"
 title_separator: "-"
 name: "Kouyakou-Abalo SIMSOBA"
-description: "Google DeepMind Scholar | AI for Science Researcher"
+description: "Google DeepMind Scholar | AI for Science Researcher | AIMS | Stellenbosch University"
 
 url: "https://simsoba-research.github.io"
 baseurl: ""
@@ -22,34 +22,37 @@ repository: "simsoba-research/simsoba-research.github.io"
 # Author Information
 # ----------------------
 author:
-  avatar: "profile.png"
+  avatar: "/assets/images/profile.png"
   name: "Kouyakou-Abalo SIMSOBA"
-  pronouns: ""
   bio: |
     Google DeepMind Scholar |
     M.Sc. Mathematics (PAUSTI, African Union Scholar) |
-    MSc in AI for Science at Stellenbosch University
+    MSc in AI for Science at Stellenbosch University |
+    Researcher at African Institute for Mathematical Sciences (AIMS)
   location: "Cape Town, South Africa"
-  employer: "AIMS, South Africa"
+  employer: "Stellenbosch University & AIMS South Africa"
   email: "kouyakou@aims.ac.za"
-
-  # Academic profiles
-  googlescholar: "https://scholar.google.com/citations?hl=en&user=RtYAMMoAAAAJ"
-  orcid: "https://orcid.org/0009-0005-4050-5040"
-  researchgate: "Kouyakou-Abalo-Simsoba"
-
-  # Code & social
+  
+  # Social & Academic Profiles
   github: "Abalo39"
   linkedin: "abalo-simsoba-803a75244"
-
-# ----------------------
-# Publication Categories
-# ----------------------
-publication_category:
-  manuscripts:
-    title: "Journal Articles"
-  conferences:
-    title: "Conference Papers"
+  twitter: ""
+  google_scholar: "RtYAMMoAAAAJ"
+  orcid: "0009-0005-4050-5040"
+  researchgate: "Kouyakou-Abalo-Simsoba"
+  
+  # Education
+  education:
+    - degree: "MSc in AI for Science"
+      institution: "Stellenbosch University"
+      year: "2024-present"
+    - degree: "M.Sc. Mathematics"
+      institution: "PAUSTI (Pan African University Institute for Basic Sciences, Technology and Innovation)"
+      year: "2021-2023"
+      note: "African Union Scholar"
+    - degree: "BSc in Mathematics"
+      institution: "University of Lomé"
+      year: "2017-2020"
 
 # ----------------------
 # Site Behavior
@@ -60,79 +63,33 @@ future: false
 read_more: "disabled"
 talkmap_link: false
 
-comments:
-  provider: false
-
 # ----------------------
 # SEO / Verification
 # ----------------------
-google_site_verification:
-bing_site_verification:
-alexa_site_verification:
-yandex_site_verification:
+google_site_verification: ""
+bing_site_verification: ""
+yandex_site_verification: ""
 
 # ----------------------
 # Social Sharing
 # ----------------------
 twitter:
-  username:
-og_image:
-og_description:
+  username: ""
+open_graph:
+  image: "/assets/images/profile.png"
+  type: "website"
 
 # ----------------------
 # Analytics
 # ----------------------
 analytics:
-  provider: false
+  provider: ""
 
 # ----------------------
-# Reading Files
-# ----------------------
-include:
-  - .htaccess
-  - _pages
-  - files
-
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
-  - Dockerfile
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - local
-  - log
-  - node_modules
-  - package.json*
-  - Rakefile
-  - README
-  - tmp
-  - vendor
-
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# ----------------------
-# Markdown Processing
+# Build Settings
 # ----------------------
 markdown: kramdown
 highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
 kramdown:
   input: GFM
   hard_wrap: false
@@ -141,21 +98,23 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
 # ----------------------
 # Collections
 # ----------------------
 collections:
-  teaching:
-    output: true
-    permalink: /teaching/:path/
   publications:
     output: true
     permalink: /publications/:path/
   talks:
     output: true
     permalink: /talks/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
 
 # ----------------------
 # Defaults
@@ -163,81 +122,130 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: pages
+      type: "posts"
     values:
-      layout: single
+      layout: "single"
       author_profile: true
-
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  
   - scope:
       path: ""
-      type: teaching
+      type: "publications"
     values:
-      layout: single
+      layout: "single"
       author_profile: true
       share: true
-
+  
   - scope:
       path: ""
-      type: publications
+      type: "talks"
     values:
-      layout: single
+      layout: "single"
       author_profile: true
       share: true
-
+  
   - scope:
       path: ""
-      type: talks
+      type: "teaching"
     values:
-      layout: talk
+      layout: "single"
       author_profile: true
       share: true
 
 # ----------------------
-# Sass / SCSS
+# Plugin Settings
 # ----------------------
-sass:
-  sass_dir: _sass
-  style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-paginate
+
+# Jekyll Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: "archive"
+  permalinks:
+    year: "/blog/:year/"
+    month: "/blog/:year/:month/"
+    day: "/blog/:year/:month/:day/"
+    tag: "/blog/tag/:name/"
+    category: "/blog/category/:name/"
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# ----------------------
+# Include/Exclude
+# ----------------------
+include:
+  - "_pages"
+  - ".well-known"
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+
+# ----------------------
+# Timezone
+# ----------------------
+timezone: "Africa/Johannesburg"
+
+# ----------------------
+# Theme (if using one)
+# ----------------------
+# theme: minima
+# remote_theme: "mmistakes/minimal-mistakes"
 
 # ----------------------
 # Output
 # ----------------------
-timezone: Africa/Johannesburg
+output:
+  webrick: false
 
 # ----------------------
-# Plugins (GitHub Pages safe)
+# Development Settings
 # ----------------------
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
+safe: false
+strict_front_matter: false
 
 # ----------------------
-# Archives
+# Custom Variables
 # ----------------------
-category_archive:
-  type: liquid
-  path: /categories/
+# Add any custom variables you need here
+scholarships:
+  - name: "Google DeepMind Scholar"
+    year: "2024"
+  - name: "African Union Scholar"
+    year: "2021-2023"
 
-tag_archive:
-  type: liquid
-  path: /tags/
+research_interests:
+  - "AI for Science"
+  - "Machine Learning"
+  - "Mathematical Modeling"
+  - "Computational Science"
+  - "Deep Learning Applications"
 
-# ----------------------
-# HTML Compression
-# ----------------------
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+affiliations:
+  - name: "Stellenbosch University"
+    department: "AI for Science Program"
+    location: "Stellenbosch, South Africa"
+  - name: "African Institute for Mathematical Sciences (AIMS)"
+    location: "Cape Town, South Africa"
+  - name: "PAUSTI"
+    full_name: "Pan African University Institute for Basic Sciences, Technology and Innovation"
+    location: "Nairobi, Kenya"
