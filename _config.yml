@@ -22,7 +22,7 @@ repository: "simsoba-research/simsoba-research.github.io"
 # Author Information
 # ----------------------
 author:
-  avatar: "/assets/images/profile.png"
+  avatar: "profile.png"
   name: "Kouyakou-Abalo SIMSOBA"
   bio: |
     Google DeepMind Scholar |
