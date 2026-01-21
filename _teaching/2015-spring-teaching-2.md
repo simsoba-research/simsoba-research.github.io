@@ -1,27 +1,20 @@
 ---
-title: "Mathematics and Physics Teacher"
+title: "Tutor – Big Data Master’s Program"
 collection: teaching
-venue: "Public High Schools"
-location: "Kara, Togo"
-date: 2019-01-01
+venue: "École Polytechnique de Lomé"
+location: "Lomé, Togo"
+date: 2023-01-01
 ---
 
-Delivered secondary-level instruction in **mathematics and physics**, with a strong emphasis on
-**conceptual understanding**, **analytical reasoning**, and **systematic problem-solving**.
-Teaching activities were aligned with national curricula and examination standards.
+Graduate tutoring (volunteer) for first-year Master’s students in the Big Data program.
 
-### Mathematics
-- Probability and combinatorics  
-- Set theory and methods of mathematical proof  
-- Polynomial, rational, and homographic functions  
-- Limits, continuity, and differentiability  
-- Arithmetic and geometric sequences  
-- Complex numbers  
+### Inferential Statistics
+- Hypothesis testing
+- Confidence intervals
+- Likelihood-based inference
 
-### Physics
-- Kinematics and Newtonian dynamics  
-- Free fall and motion under gravity  
-- Mechanical oscillations and waves  
-- Electrostatics and electric circuits  
-- AC and RLC circuits  
-- Thermodynamics (ideal gases)
+### Optimization
+- Constrained and unconstrained optimization
+- Lagrange multipliers
+- KKT conditions
+- Convex optimization
