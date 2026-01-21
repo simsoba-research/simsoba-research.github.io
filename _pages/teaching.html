@@ -1,64 +1,36 @@
-# Kouyakou-Abalo SIMSOBA
-
-## Teaching Experience
-
-### Teaching Positions
-
-#### Mathematics and Physics Teacher
-**High Schools in Kara, Togo** | 2019 – 2023  
-Delivered comprehensive high school instruction focusing on conceptual understanding and systematic problem-solving.
-
-##### Mathematics Modules:
-- Probability and Combinatorics
-- Set Theory and Logic
-- Spatial Geometry (Three-Dimensional)
-- Polynomial and Homographic Functions
-- Continuity and Differentiability
-- Arithmetic and Geometric Sequences
-- Complex Numbers
-
-##### Physics Modules:
-- Kinematics and Motion under Gravity
-- Mechanical and Electrical Oscillations
-- Wave Phenomena and Propagation
-- Electrostatics and RLC Circuits
-- Thermodynamics (Ideal Gases and Processes)
-
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
 ---
 
-#### Tutor (Volunteer)
-**École Polytechnique de Lomé, Togo** | 2023  
-Instructed Master's students in the Big Data program on advanced statistical and mathematical techniques.
+{% include base_path %}
 
-##### Inferential Statistics:
-- Hypothesis Testing and Confidence Intervals
-- Parameter Estimation and Likelihood-Based Inference
-- Sampling Distributions and Asymptotic Results
+{% for post in site.teaching reversed %}
+<article class="archive__item">
 
-##### Optimization:
-- Unconstrained and Constrained Optimization
-- Lagrange Multipliers and KKT Conditions
-- Gradient-Based and Convex Optimization
+  <h2 class="archive__item-title">
+    {{ post.title }}
+  </h2>
 
----
+  {% if post.venue %}
+  <p><strong>{{ post.venue }}</strong></p>
+  {% endif %}
 
-#### Graduate Teaching Assistant
-**Stellenbosch University, South Africa** | 2025 – Present  
-Assisting with AI/ML courses, conducting tutorial sessions, and mentoring undergraduate students in the AI for Science program.
+  {% if post.location %}
+  <p>{{ post.location }}</p>
+  {% endif %}
 
----
+  {% if post.date %}
+  <p><em>{{ post.date | date: "%Y" }}</em></p>
+  {% endif %}
 
-#### Workshop Instructor
-**PAUSTI, Nairobi, Kenya** | 2024  
-Conducted workshops on Time Series Analysis and Machine Learning fundamentals for graduate students.
+  <div class="archive__item-excerpt">
+    {{ post.content }}
+  </div>
 
----
+  <hr>
 
-### Teaching Philosophy
-*[You can add your teaching philosophy here - 1-2 paragraphs about your approach to teaching]*
-
-### Courses Developed
-*[List any courses or curriculum you've developed]*
-
-### Student Supervision
-*[List any thesis supervision, mentoring, or student projects you've supervised]*
+</article>
+{% endfor %}
