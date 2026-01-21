@@ -10,14 +10,14 @@ author_profile: true
 {% for post in site.talks reversed %}
 <article class="archive__item">
 
-  <!-- Blue title (same as Teaching / CV) -->
+  <!-- Blue title -->
   <h2 class="archive__item-title">
     <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
   </h2>
 
-  <!-- Clean meta line (NO "Published") -->
+  <!-- NORMAL-SIZED meta line (NO page__meta) -->
   {% if post.venue or post.location or post.date %}
-  <p class="page__meta">
+  <p>
     {% if post.venue %}{{ post.venue }}{% endif %}
     {% if post.location %}
       {% if post.venue %} · {% endif %}{{ post.location }}
@@ -28,11 +28,10 @@ author_profile: true
   </p>
   {% endif %}
 
-  <!-- Full content (like Teaching, no truncation) -->
+  <!-- Full content -->
   <div class="archive__item-excerpt">
     {{ post.content }}
   </div>
 
 </article>
 {% endfor %}
-
