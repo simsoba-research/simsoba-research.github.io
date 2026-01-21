@@ -9,12 +9,12 @@ author_profile: true
 {% for post in site.talks reversed %}
 <article class="archive__item">
 
-  <!-- Blue project title (same size as Teaching & CV) -->
+  <!-- Project title (blue, same as Teaching & CV) -->
   <h2 class="archive__item-title">
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </h2>
 
-  <!-- Clean meta line: venue · location · year (NORMAL SIZE) -->
+  <!-- Meta line: venue · location · year (normal size, no commas issue) -->
   {% if post.venue or post.location or post.date %}
   <p>
     {% if post.venue %}{{ post.venue }}{% endif %}
@@ -27,10 +27,13 @@ author_profile: true
   </p>
   {% endif %}
 
-  <!-- IMPORTANT: markdownify so text is NOT tiny -->
-  <div class="archive__item-excerpt">
-    {{ post.content | markdownify }}
+  <!-- DESCRIPTION ONLY: increased size and readable -->
+  <div>
+    <p style="font-size: 1.05em; line-height: 1.6;">
+      {{ post.content | markdownify }}
+    </p>
   </div>
 
 </article>
 {% endfor %}
+
