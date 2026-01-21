@@ -12,17 +12,23 @@ covering inferential statistics and optimization.
 <details>
 <summary><strong>Read more</strong></summary>
 
-### Inferential Statistics
-- Hypothesis testing  
-- Confidence intervals  
-- Likelihood-based inference  
-- Asymptotic results  
+<br>
 
-### Optimization
-- Unconstrained and constrained optimization  
-- Lagrange multipliers  
-- KKT conditions  
-- Gradient-based methods  
-- Convex optimization  
+<strong>Inferential Statistics</strong>
+<ul>
+  <li>Hypothesis testing</li>
+  <li>Confidence intervals</li>
+  <li>Likelihood-based inference</li>
+  <li>Asymptotic results</li>
+</ul>
+
+<strong>Optimization</strong>
+<ul>
+  <li>Unconstrained and constrained optimization</li>
+  <li>Lagrange multipliers</li>
+  <li>KKT conditions</li>
+  <li>Gradient-based methods</li>
+  <li>Convex optimization</li>
+</ul>
 
 </details>
