@@ -4,18 +4,17 @@ title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
-
 {% include base_path %}
 
 {% for post in site.talks reversed %}
 <article class="archive__item">
 
-  <!-- Blue title -->
+  <!-- Blue project title (same size as Teaching & CV) -->
   <h2 class="archive__item-title">
-    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </h2>
 
-  <!-- NORMAL-SIZED meta line (NO page__meta) -->
+  <!-- Clean meta line: venue · location · year (NORMAL SIZE) -->
   {% if post.venue or post.location or post.date %}
   <p>
     {% if post.venue %}{{ post.venue }}{% endif %}
@@ -28,9 +27,9 @@ author_profile: true
   </p>
   {% endif %}
 
-  <!-- Full content -->
+  <!-- IMPORTANT: markdownify so text is NOT tiny -->
   <div class="archive__item-excerpt">
-    {{ post.content }}
+    {{ post.content | markdownify }}
   </div>
 
 </article>
