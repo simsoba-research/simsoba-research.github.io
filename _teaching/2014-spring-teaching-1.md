@@ -9,7 +9,6 @@ date: 2019-01-01
 Delivered secondary-level instruction in **mathematics and physics**, with a strong emphasis on
 **conceptual understanding**, **analytical reasoning**, and **systematic problem-solving**.
 
-<details>
 <summary><strong>Read more</strong></summary>
 
 ### Mathematics
@@ -27,5 +26,3 @@ Delivered secondary-level instruction in **mathematics and physics**, with a str
 - Electrostatics and Electric Circuits  
 - AC Circuits and RLC Systems  
 - Thermodynamics (Ideal Gases)
-
-</details>
