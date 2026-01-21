@@ -1,6 +1,6 @@
 var addressPoints = [
   [
-    "Statistical Analysis of Online Learning During the COVID-19 Pandemic<br />Universit\u00e9 de Kara; Kara, Togo",
+    "Statistical Analysis of Online Learning During the COVID-19 Pandemic<br />Universite de Kara; Kara, Togo",
     9.541111,
     0.7876018
   ],
