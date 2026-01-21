@@ -1,20 +1,29 @@
 ---
-title: "Teaching experience 1"
+title: "Mathematics and Physics Teacher"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Secondary Education"
+permalink: /teaching/high-school-kara
+venue: "High Schools in Kara"
+date: 2019-01-01
+location: "Kara, Togo"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Delivered high school-level instruction in mathematics and physics with a strong emphasis on conceptual understanding and systematic problem-solving.
 
-Heading 1
-======
+**Mathematics Subjects:**
+* Probability and Combinatorics
+* Set Theory and Methods of Mathematical Proof
+* Spatial Geometry (Three-Dimensional Geometry)
+* Second-Degree Polynomial and Homographic Functions
+* Continuity and Differentiability of Functions
+* Arithmetic and Geometric Sequences
+* Complex Numbers
 
-Heading 2
-======
-
-Heading 3
-======
+**Physics Subjects:**
+* Kinematics
+* Free Fall and Motion under Gravity
+* Mechanical and Electrical Oscillations
+* Wave Phenomena and Propagation
+* Electrostatics
+* Alternating Current and RLC Circuits
+* Thermodynamics (Ideal Gases and Thermodynamic Processes)
