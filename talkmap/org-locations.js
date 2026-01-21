@@ -10,8 +10,8 @@ var addressPoints = [
     -0.1277653
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "Generative AI for Multimodal Breast Cancer Diagnosis and Staging<br />AIMS South Africa; Cape Town, South Africa",
+    -33.9288301,
+    18.4172197
   ]
 ];
