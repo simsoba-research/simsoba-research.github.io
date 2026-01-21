@@ -3,27 +3,27 @@ title: "Mathematics and Physics Teacher"
 collection: teaching
 type: "Secondary Education"
 permalink: /teaching/high-school-kara
-venue: "High Schools in Kara"
+venue: "Public High Schools, Kara"
 date: 2019-01-01
 location: "Kara, Togo"
 ---
 
-Delivered high school-level instruction in mathematics and physics with a strong emphasis on conceptual understanding and systematic problem-solving.
+Delivered secondary-level instruction in **mathematics and physics**, with a strong emphasis on **conceptual understanding**, **analytical reasoning**, and **systematic problem-solving**. Teaching activities aligned with the national curriculum and examination standards.
 
-**Mathematics Subjects:**
-* Probability and Combinatorics
-* Set Theory and Methods of Mathematical Proof
-* Spatial Geometry (Three-Dimensional Geometry)
-* Second-Degree Polynomial and Homographic Functions
-* Continuity and Differentiability of Functions
-* Arithmetic and Geometric Sequences
-* Complex Numbers
+### Mathematics
+- Probability and combinatorics  
+- Set theory and methods of mathematical proof  
+- Spatial (three-dimensional) geometry  
+- Polynomial functions (quadratic) and homographic functions  
+- Continuity and differentiability of functions  
+- Arithmetic and geometric sequences  
+- Complex numbers and algebraic manipulation  
 
-**Physics Subjects:**
-* Kinematics
-* Free Fall and Motion under Gravity
-* Mechanical and Electrical Oscillations
-* Wave Phenomena and Propagation
-* Electrostatics
-* Alternating Current and RLC Circuits
-* Thermodynamics (Ideal Gases and Thermodynamic Processes)
+### Physics
+- Kinematics and motion analysis  
+- Free fall and motion under uniform gravity  
+- Mechanical and electrical oscillations  
+- Wave phenomena and propagation  
+- Electrostatics  
+- Alternating current and RLC circuits  
+- Thermodynamics (ideal gases and thermodynamic processes)
