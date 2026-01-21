@@ -11,4 +11,4 @@ Hello! I'm Kouyakou-Abalo SIMSOBA. I am a Google DeepMind Scholar currently purs
 
 ---
 
-**Download my complete CV here: [Curriculum Vitae (PDF)](/files/cv.pdf)**
+**Download my: [Curriculum Vitae (PDF)](/files/cv.pdf)**
