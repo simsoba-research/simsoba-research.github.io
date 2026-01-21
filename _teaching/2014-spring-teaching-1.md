@@ -9,12 +9,7 @@ date: 2019-01-01
 Delivered secondary-level instruction in mathematics and physics, with emphasis on
 conceptual understanding, analytical reasoning, and systematic problem-solving.
 
-<details>
-<summary><strong>Read more</strong></summary>
-
-<br>
-
-<strong>Mathematics</strong>
+**Mathematics**
 <ul>
   <li>Probability and combinatorics</li>
   <li>Set theory and proof techniques</li>
@@ -24,7 +19,7 @@ conceptual understanding, analytical reasoning, and systematic problem-solving.
   <li>Complex numbers</li>
 </ul>
 
-<strong>Physics</strong>
+**Physics**
 <ul>
   <li>Kinematics and Newtonian dynamics</li>
   <li>Free fall and motion under gravity</li>
@@ -33,5 +28,3 @@ conceptual understanding, analytical reasoning, and systematic problem-solving.
   <li>AC and RLC circuits</li>
   <li>Thermodynamics</li>
 </ul>
-
-</details>
