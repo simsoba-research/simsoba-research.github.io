@@ -8,24 +8,40 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.teaching reversed %}
-<article class="archive__item">
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-  <!-- Blue section title (same style as CV) -->
-  <h2 class="archive__item-title">
-    {{ post.title }}
+  <!-- Title (keeps theme styling: blue + underline link style if theme adds it) -->
+  <h2 class="archive__item-title" itemprop="headline">
+    {% if post.link %}
+      <a href="{{ post.link }}">{{ post.title }}</a>
+    {% else %}
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    {% endif %}
   </h2>
 
-  <!-- Meta line without ugly commas -->
+  <!-- Meta line (NO commas; only shows separators when the field exists) -->
+  {% assign has_meta = false %}
+  {% if post.venue or post.location or post.date %}
+    {% assign has_meta = true %}
+  {% endif %}
+
+  {% if has_meta %}
   <p class="page__meta">
     {% if post.venue %}{{ post.venue }}{% endif %}
-    {% if post.location %} · {{ post.location }}{% endif %}
-    {% if post.date %} · {{ post.date | date: "%Y" }}{% endif %}
+    {% if post.location %}
+      {% if post.venue %} · {% endif %}{{ post.location }}
+    {% endif %}
+    {% if post.date %}
+      {% if post.venue or post.location %} · {% endif %}{{ post.date | date: "%Y" }}
+    {% endif %}
   </p>
+  {% endif %}
 
-  <!-- IMPORTANT: markdownify -->
-  <div class="archive__item-excerpt">
-    {{ post.content | markdownify }}
+  <!-- Content: DO NOT markdownify here (your markdown is already rendered in collections) -->
+  <div class="archive__item-excerpt" itemprop="text">
+    {{ post.content }}
   </div>
 
+  <hr class="archive__item-teaser-divider">
 </article>
 {% endfor %}
