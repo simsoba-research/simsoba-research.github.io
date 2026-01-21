@@ -9,12 +9,7 @@ date: 2023-01-01
 Graduate tutoring (volunteer) for first-year Master’s students in the Big Data program,
 covering inferential statistics and optimization.
 
-<details>
-<summary><strong>Read more</strong></summary>
-
-<br>
-
-<strong>Inferential Statistics</strong>
+**Inferential Statistics**
 <ul>
   <li>Hypothesis testing</li>
   <li>Confidence intervals</li>
@@ -22,7 +17,7 @@ covering inferential statistics and optimization.
   <li>Asymptotic results</li>
 </ul>
 
-<strong>Optimization</strong>
+**Optimization**
 <ul>
   <li>Unconstrained and constrained optimization</li>
   <li>Lagrange multipliers</li>
@@ -30,5 +25,3 @@ covering inferential statistics and optimization.
   <li>Gradient-based methods</li>
   <li>Convex optimization</li>
 </ul>
-
-</details>
