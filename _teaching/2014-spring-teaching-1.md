@@ -12,18 +12,15 @@ date: 2019-01-01
 
 Delivered secondary-level instruction in **mathematics and physics**, with a strong emphasis on
 **conceptual understanding**, **analytical reasoning**, and **systematic problem-solving**.
-Teaching activities were aligned with national curricula and examination standards.
-
-<details>
-<summary><strong>Read more</strong></summary>
+Teaching activities were aligned with national curricula and national examination standards.
 
 ### Mathematics
 - Probability and combinatorics  
 - Set theory and methods of mathematical proof  
 - Polynomial, rational, and homographic functions  
-- Limits, continuity, and differentiability  
+- Limits, continuity, and differentiability of functions  
 - Arithmetic and geometric sequences  
-- Complex numbers  
+- Complex numbers and applications  
 
 ### Physics
 - Kinematics and Newtonian dynamics  
@@ -31,9 +28,7 @@ Teaching activities were aligned with national curricula and examination standar
 - Mechanical oscillations and wave phenomena  
 - Electrostatics and electric circuits  
 - Alternating current (AC) and RLC circuits  
-- Thermodynamics (ideal gases)  
-
-</details>
+- Thermodynamics (ideal gases and thermodynamic processes)  
 
 ---
 
@@ -41,11 +36,9 @@ Teaching activities were aligned with national curricula and examination standar
 **École Polytechnique de Lomé, Lomé, Togo**  
 *2023*
 
-Provided graduate-level tutorial instruction in **inferential statistics** and **optimization** to
-first-year Master’s students enrolled in the Big Data program.
-
-<details>
-<summary><strong>Read more</strong></summary>
+Provided graduate-level tutorial instruction in **inferential statistics** and **optimization**
+to first-year Master’s students enrolled in the Big Data program, with emphasis on theoretical
+rigor and applied problem-solving.
 
 ### Inferential Statistics
 - Hypothesis testing and confidence intervals  
@@ -57,5 +50,3 @@ first-year Master’s students enrolled in the Big Data program.
 - Lagrange multipliers and Karush–Kuhn–Tucker (KKT) conditions  
 - Gradient-based optimization methods  
 - Fundamentals of convex optimization  
-
-</details>
