@@ -8,5 +8,31 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.talks reversed %}
-  {% include archive-single.html %}
+<article class="archive__item">
+
+  <!-- Blue title (same as Teaching / CV) -->
+  <h2 class="archive__item-title">
+    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+  </h2>
+
+  <!-- Clean meta line (NO "Published") -->
+  {% if post.venue or post.location or post.date %}
+  <p class="page__meta">
+    {% if post.venue %}{{ post.venue }}{% endif %}
+    {% if post.location %}
+      {% if post.venue %} · {% endif %}{{ post.location }}
+    {% endif %}
+    {% if post.date %}
+      {% if post.venue or post.location %} · {% endif %}{{ post.date | date: "%Y" }}
+    {% endif %}
+  </p>
+  {% endif %}
+
+  <!-- Full content (like Teaching, no truncation) -->
+  <div class="archive__item-excerpt">
+    {{ post.content }}
+  </div>
+
+</article>
 {% endfor %}
+
