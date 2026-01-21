@@ -10,36 +10,33 @@ author_profile: true
 {% for post in site.teaching reversed %}
 <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-  <!-- SECTION TITLE (keeps theme blue style) -->
+  <!-- BLUE SECTION TITLE (theme-controlled, untouched) -->
   <h2 class="archive__item-title" itemprop="headline">
-    {% if post.link %}
-      <a href="{{ post.link }}">{{ post.title }}</a>
-    {% else %}
-      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-    {% endif %}
+    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
   </h2>
 
-  <!-- META LINE (NORMAL SIZE, NO COMMAS, NO page__meta CLASS) -->
+  <!-- META LINE (no commas, no duplication) -->
   {% if post.venue or post.location or post.date %}
-  <p>
-    <em>
-      {% if post.venue %}{{ post.venue }}{% endif %}
-      {% if post.location %}
-        {% if post.venue %} · {% endif %}{{ post.location }}
-      {% endif %}
-      {% if post.date %}
-        {% if post.venue or post.location %} · {% endif %}{{ post.date | date: "%Y" }}
-      {% endif %}
-    </em>
+  <p class="page__meta">
+    {% if post.venue %}{{ post.venue }}{% endif %}
+    {% if post.location %}
+      {% if post.venue %} · {% endif %}{{ post.location }}
+    {% endif %}
+    {% if post.date %}
+      {% if post.venue or post.location %} · {% endif %}{{ post.date | date: "%Y" }}
+    {% endif %}
   </p>
   {% endif %}
 
-  <!-- MAIN CONTENT (courses, read more, lists — SAFE) -->
+  <!-- BODY CONTENT: ONLY SMALL TEXT INCREASED -->
   <div class="archive__item-excerpt" itemprop="text">
-    {{ post.content }}
+    <div style="font-size: 1.05rem; line-height: 1.7;">
+      {{ post.content }}
+    </div>
   </div>
 
   <hr>
 
 </article>
 {% endfor %}
+
