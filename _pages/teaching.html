@@ -12,7 +12,7 @@ author_profile: true
 
   <!-- BLUE SECTION TITLE (theme-controlled, untouched) -->
   <h2 class="archive__item-title" itemprop="headline">
-    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </h2>
 
   <!-- META LINE (no commas, no duplication) -->
@@ -28,9 +28,9 @@ author_profile: true
   </p>
   {% endif %}
 
-  <!-- BODY CONTENT: ONLY SMALL TEXT INCREASED -->
+  <!-- BODY CONTENT: SLIGHTLY LARGER, READABLE -->
   <div class="archive__item-excerpt" itemprop="text">
-    <div style="font-size: 1.05rem; line-height: 1.7;">
+    <div style="font-size: 1.12rem; line-height: 1.75;">
       {{ post.content }}
     </div>
   </div>
@@ -39,4 +39,3 @@ author_profile: true
 
 </article>
 {% endfor %}
-
