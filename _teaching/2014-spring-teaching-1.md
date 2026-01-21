@@ -8,25 +8,30 @@ date: 2019-01-01
 
 Delivered secondary-level instruction in mathematics and physics, with emphasis on
 conceptual understanding, analytical reasoning, and systematic problem-solving.
-Teaching activities were aligned with national curricula and examination standards.
 
 <details>
 <summary><strong>Read more</strong></summary>
 
-### Mathematics
-- Probability and combinatorics  
-- Set theory and methods of mathematical proof  
-- Polynomial, rational, and homographic functions  
-- Limits, continuity, and differentiability  
-- Arithmetic and geometric sequences  
-- Complex numbers  
+<br>
 
-### Physics
-- Kinematics and Newtonian dynamics  
-- Free fall and motion under gravity  
-- Oscillations and wave phenomena  
-- Electrostatics and electric circuits  
-- AC and RLC circuits  
-- Thermodynamics  
+<strong>Mathematics</strong>
+<ul>
+  <li>Probability and combinatorics</li>
+  <li>Set theory and proof techniques</li>
+  <li>Polynomial, rational, and homographic functions</li>
+  <li>Limits, continuity, and differentiability</li>
+  <li>Arithmetic and geometric sequences</li>
+  <li>Complex numbers</li>
+</ul>
+
+<strong>Physics</strong>
+<ul>
+  <li>Kinematics and Newtonian dynamics</li>
+  <li>Free fall and motion under gravity</li>
+  <li>Oscillations and wave phenomena</li>
+  <li>Electrostatics and electric circuits</li>
+  <li>AC and RLC circuits</li>
+  <li>Thermodynamics</li>
+</ul>
 
 </details>
