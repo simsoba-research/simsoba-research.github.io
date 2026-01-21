@@ -8,19 +8,24 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.teaching reversed %}
-  <article class="archive__item">
-    <h2 class="archive__item-title">{{ post.title }}</h2>
+<article class="archive__item">
 
-    {% if post.venue or post.location or post.date %}
-      <p class="page__meta">
-        {% if post.venue %}{{ post.venue }}{% endif %}
-        {% if post.location %}{% if post.venue %} · {% endif %}{{ post.location }}{% endif %}
-        {% if post.date %}{% if post.venue or post.location %} · {% endif %}{{ post.date | date: "%Y" }}{% endif %}
-      </p>
-    {% endif %}
+  <!-- Blue section title (same style as CV) -->
+  <h2 class="archive__item-title">
+    {{ post.title }}
+  </h2>
 
-    <div class="archive__item-excerpt">
-      {{ post.content }}
-    </div>
-  </article>
+  <!-- Meta line without ugly commas -->
+  <p class="page__meta">
+    {% if post.venue %}{{ post.venue }}{% endif %}
+    {% if post.location %} · {{ post.location }}{% endif %}
+    {% if post.date %} · {{ post.date | date: "%Y" }}{% endif %}
+  </p>
+
+  <!-- IMPORTANT: markdownify -->
+  <div class="archive__item-excerpt">
+    {{ post.content | markdownify }}
+  </div>
+
+</article>
 {% endfor %}
