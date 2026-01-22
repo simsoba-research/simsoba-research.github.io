@@ -1,47 +1,23 @@
-{% assign post = include.post | default: post %}
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
 
-<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+{% if site.author.googlescholar %}
+<div class="wordwrap">
+  You can also find my articles on
+  <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+</div>
+{% endif %}
 
-  {% if post.title %}
-    <h2 class="archive__item-title" itemprop="headline">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
-  {% endif %}
+{% include base_path %}
 
-  {% if post.venue %}
-    <p class="archive__item-excerpt">
-      <em>Published in {{ post.venue }}, {{ post.date | date: "%Y" }}</em>
-    </p>
-  {% endif %}
+<div style="font-size: 1.12rem; line-height: 1.75;">
 
-  {% if post.excerpt %}
-    <p class="archive__item-excerpt" itemprop="description">
-      {{ post.excerpt }}
-    </p>
-  {% endif %}
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 
-  {% if post.citation %}
-    <p class="archive__item-excerpt">
-      <strong>Recommended citation:</strong> {{ post.citation }}
-    </p>
-  {% endif %}
-
-  {% if post.paperurl %}
-    <p class="archive__item-excerpt">
-      <a href="{{ post.paperurl }}">Download Paper</a>
-    </p>
-  {% endif %}
-
-  <!-- ========================= -->
-  <!-- FULL CONTENT ADDED BELOW -->
-  <!-- ========================= -->
-
-  {% if post.content %}
-    <div class="archive__item-content" style="margin-top: 1.2em;">
-      {{ post.content }}
-    </div>
-  {% endif %}
-
-  <hr>
-
-</article>
+</div>
