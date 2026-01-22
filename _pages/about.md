@@ -6,32 +6,30 @@ author_profile: true
 mathjax: true
 ---
 
-Hello! I am **Kouyakou-Abalo SIMSOBA**, a **Google DeepMind Scholar** currently pursuing an **M.Sc. in Artificial Intelligence for Science** at **Stellenbosch University** through **AIMS South Africa**.
+Hello! I am **Kouyakou-Abalo SIMSOBA**, a **Google DeepMind Scholar** pursuing an **M.Sc. in Artificial Intelligence for Science** at **Stellenbosch University** through **AIMS South Africa**.
 
-My research lies at the intersection of **robust machine learning**, **time-series forecasting**, and **statistical learning theory**, with a focus on designing learning objectives that remain reliable under noisy, irregular, and imperfect real-world data.
+My research focuses on **robust machine learning** and **time-series forecasting**, with an emphasis on designing learning objectives that remain stable and accurate under noisy and irregular real-world data.
 
 ---
 
 ## Research Focus
 
-A central theme of my work is understanding how the **choice of loss function** influences the stability, accuracy, and robustness of deep neural networks, particularly recurrent architectures such as **Long Short-Term Memory (LSTM)** models.
+A central question in my work is how the **choice of loss function** affects the optimization and robustness of deep neural networks, particularly **LSTM-based** models.
 
-Formally, I study learning objectives of the form
+I study learning objectives of the form
 
 $$
 \mathcal{L}(y,\hat{y})
 = \frac{1}{N}\sum_{i=1}^{N} \ell\!\left(y_i - \hat{y}_i\right),
 $$
 
-and investigate principled alternatives to classical losses such as Mean Squared Error (MSE) and Mean Absolute Error (MAE), which are known to be sensitive to noise and outliers.
+and develop principled alternatives to classical losses such as MSE and MAE.
 
 ---
 
 ## Representative Contribution
 
-This line of research culminated in my IEEE Access paper on **robust LSTM-based time-series forecasting**, where I introduced a novel hybrid loss function called the **Minkowski–Log–Cosh (MLC) loss**.
-
-The MLC loss is defined as
+This work culminated in my **IEEE Access** paper on robust LSTM-based time-series forecasting, where I introduced the **Minkowski–Log–Cosh (MLC) loss**:
 
 $$
 \mathcal{L}_{\mathrm{MLC}}(y,\hat{y})
@@ -39,11 +37,14 @@ $$
 \left[\log\!\big(\cosh(y_i - \hat{y}_i)\big)\right]^p,
 $$
 
-where $p>0$ is a tunable Minkowski exponent controlling the trade-off between **robustness to outliers** and **error sensitivity**.
+with $p>0$ controlling the trade-off between **robustness to outliers** and **error sensitivity**.
 
-From a theoretical perspective, I derived key properties of this loss, including strict convexity for $p>1$, bounded gradients for large residuals when $p<2$, and a smooth interpolation between MAE-like and MSE-like behavior. These properties explain why the loss remains stable during optimization while reducing the influence of extreme errors.
+To understand its behavior, I performed a **gradient and Hessian analysis**, showing that:
+- for $p<2$, gradients saturate for large residuals, reducing the influence of outliers;
+- for $p>1$, the loss is strictly convex, ensuring stable optimization;
+- the curvature interpolates smoothly between MAE-like and MSE-like regimes.
 
-Empirically, when applied to **11 years of real malaria surveillance data**, this formulation improved forecasting accuracy under both clean and outlier-contaminated conditions, reducing mean absolute percentage error from **20.96% to 18.23%** on clean data and substantially lowering median absolute error under synthetic anomalies, while maintaining $\mathcal{O}(N)$ computational complexity and faster convergence compared to standard losses.
+Empirical evaluation on **11 years of malaria surveillance data** confirmed these theoretical insights, yielding improved accuracy and faster convergence under both clean and outlier-contaminated conditions.
 
 ---
 
@@ -53,11 +54,11 @@ Empirically, when applied to **11 years of real malaria surveillance data**, thi
 - **M.Sc. in Mathematics (Statistics)**, PAUSTI — African Union Scholar  
 - **B.Sc. in Mathematics and Statistics**, Université de Kara  
 
-My training in **mathematical statistics** strongly informs my approach to machine learning, particularly in the design and analysis of robust learning algorithms.
+My background in **mathematical statistics** strongly informs my approach to robust learning and model analysis.
 
 ---
 
-I am particularly interested in collaborations that bridge **theoretical foundations and applied AI**, especially in **scientific forecasting, public health, and robust deep learning systems**.
+I am interested in collaborations at the intersection of **theory and applied AI**, particularly in **scientific forecasting, public health, and robust deep learning**.
 
 ---
 
