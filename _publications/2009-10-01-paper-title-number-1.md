@@ -6,8 +6,8 @@ permalink: /publication/2025-hybrid-minkowski-log-cosh
 excerpt: >
   We propose a Hybrid Minkowski–Log–Cosh (MLC) loss function for robust
   LSTM-based time series forecasting under noisy and outlier-contaminated
-  conditions. The method provides a tunable robustness–sensitivity trade-off
-  and demonstrates improved accuracy on long-horizon malaria incidence data.
+  conditions, validated on long-horizon public health data.
+  How to cite: APA / IEEE / Harvard / Vancouver / BibTeX.
 date: 2025-02-15
 venue: 'IEEE Access'
 paperurl: 'https://doi.org/10.1109/ACCESS.2025.3626795'
@@ -29,8 +29,8 @@ functions under both clean and outlier-contaminated regimes.
 
 ## Loss Function Definition
 
-Let $y_i \in \mathbb{R}$ and $\hat{y}_i \in \mathbb{R}$ denote the true and predicted
-values at time index $i$. The proposed loss function is defined as
+Let $y_i$ and $\hat{y}_i$ denote the true and predicted values at time $i$.
+The proposed loss function is defined as
 
 $$
 \mathcal{L}(y,\hat{y})
@@ -44,7 +44,7 @@ to outliers and sensitivity to prediction errors.
 
 **Special cases**
 - $p = 1$: Log-Cosh loss  
-- $p \approx 2$: Mean Squared Error–like behavior  
+- $p \approx 2$: MSE-like behavior  
 - $p < 2$: increased robustness to outliers  
 
 ---
@@ -52,7 +52,7 @@ to outliers and sensitivity to prediction errors.
 ## Gradient Analysis
 
 Let $\varepsilon_i = y_i - \hat{y}_i$.  
-The gradient of the loss with respect to the prediction $\hat{y}_i$ is given by
+The gradient with respect to the prediction $\hat{y}_i$ is
 
 $$
 \frac{\partial \mathcal{L}}{\partial \hat{y}_i}
@@ -63,7 +63,7 @@ $$
 $$
 
 This formulation yields smooth gradients for small residuals and suppresses the
-influence of extreme errors, contributing to stable and robust optimization.
+influence of extreme errors, contributing to stable optimization.
 
 ---
 
@@ -73,8 +73,7 @@ The proposed loss was evaluated using **LSTM models** on **monthly malaria
 incidence data (2013–2023)**.
 
 - **Clean data regime:**  
-  Mean Absolute Percentage Error (MAPE) reduced to **18.23%**, compared to
-  **20.96%** under MSE.
+  MAPE reduced to **18.23%**, compared to **20.96%** under MSE.
 
 - **Outlier-contaminated regime:**  
   Approximately **117,000 fewer mispredicted cases** relative to MSE.
@@ -87,7 +86,7 @@ incidence data (2013–2023)**.
 
 ## Key Contributions
 
-- A novel hybrid loss function with tunable robustness  
+- Novel hybrid loss function with tunable robustness  
 - Explicit gradient-based analysis explaining stability  
 - Improved forecasting accuracy on real public health data  
 - Plug-and-play compatibility with LSTM and deep learning models  
