@@ -111,7 +111,7 @@ All improvements were achieved with **$\mathcal{O}(N)$ computational complexity*
 ## Key Contributions
 
 - **Novel loss function** with tunable robustness  
-- **Rigorous gradient and Hessian analysis**  
+- **Explicit gradient and Hessian analysis**  
 - **Improved stability and accuracy** on real public health data  
 - **Plug-and-play** for LSTM and deep learning models  
 
