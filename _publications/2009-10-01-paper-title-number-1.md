@@ -22,14 +22,14 @@ Robust learning is essential for time-series forecasting in real-world settings 
 Let $y_i$ and $\hat{y}_i$ denote the true and predicted values at time $i$.  
 The proposed loss is defined as
 
-\[
+$$
 \mathcal{L}_{\mathrm{MLC}}(y,\hat{y})
 =
 \frac{1}{N}\sum_{i=1}^{N}
 \left[\log\!\big(\cosh(y_i - \hat{y}_i)\big)\right]^p,
-\]
+$$
 
-where $p>0$ is a **Minkowski exponent** controlling the trade-off between robustness to outliers and error sensitivity.
+where $p>0$ is a **Minkowski exponent** controlling the curvature of the loss and the trade-off between robustness and sensitivity.
 
 **Special cases**
 - $p = 1$: Log-Cosh loss  
@@ -38,23 +38,82 @@ where $p>0$ is a **Minkowski exponent** controlling the trade-off between robust
 
 ---
 
+## Gradient Analysis
+
+Let $\varepsilon_i = y_i - \hat{y}_i$ and $g_i = \log(\cosh(\varepsilon_i))$.  
+The gradient with respect to the prediction $\hat{y}_i$ is
+
+$$
+\frac{\partial \mathcal{L}_{\mathrm{MLC}}}{\partial \hat{y}_i}
+=
+-\,p\, g_i^{\,p-1}\tanh(\varepsilon_i).
+$$
+
+**Interpretation**
+- For small residuals: $\tanh(\varepsilon_i)\approx\varepsilon_i$ (smooth, MSE-like)
+- For large residuals: $\tanh(\varepsilon_i)\to 1$ (gradient saturation)
+- For $p<2$: extreme errors are downweighted, improving robustness
+
+---
+
+## Hessian and Curvature Properties
+
+The second derivative (Hessian entry) is
+
+$$
+\frac{\partial^2 \mathcal{L}_{\mathrm{MLC}}}{\partial \hat{y}_i^2}
+=
+p(p-1)\, g_i^{\,p-2}\tanh^2(\varepsilon_i)
++
+p\, g_i^{\,p-1}\operatorname{sech}^2(\varepsilon_i).
+$$
+
+Asymptotic behavior for large residuals:
+
+$$
+\lim_{|\varepsilon_i|\to\infty}
+\frac{\partial^2 \mathcal{L}_{\mathrm{MLC}}}{\partial \hat{y}_i^2}
+=
+\begin{cases}
+0, & 0 < p < 2, \\
+2, & p = 2, \\
++\infty, & p > 2.
+\end{cases}
+$$
+
+This shows that:
+- **$p<2$ yields bounded curvature**, ensuring robustness to outliers
+- **$p>1$ guarantees strict convexity**, enabling stable optimization
+- **$p=2$ recovers MSE-like curvature**
+
+---
+
 ## Empirical Evaluation
 
-The proposed loss was evaluated using **LSTM models** on **11 years (2013–2023)** of monthly malaria incidence data.
+The loss was evaluated using **LSTM models** on **11 years (2013–2023)** of monthly malaria incidence data.
 
-On clean data, the MLC loss reduced **MAPE from 20.96% (MSE) to 18.23%**, while also achieving lower MAE and RMSE.  
-Under synthetic outlier contamination, the loss demonstrated significantly improved robustness, reducing median absolute error and yielding approximately **117,000 fewer mispredicted cases** compared to standard MSE training.
+### Clean data regime (best $p=2.25$)
+- **MAE:** 2,515.38  
+- **MAPE:** 18.23% (↓ from 20.96% with MSE)  
+- **RMSE:** 3,671.74  
+- Faster convergence than MSE, MAE, and Log-Cosh  
 
-All improvements were obtained with **$\mathcal{O}(N)$ computational complexity**, matching standard regression losses.
+### Noisy / outlier-contaminated regime (best $p=1.5$)
+- **MAE:** 3,676.36  
+- **Median AE:** 2,192.06  
+- **SMAPE:** 24.63%  
+- ≈ **117,000 fewer mispredicted cases** compared to MSE  
+
+All improvements were achieved with **$\mathcal{O}(N)$ computational complexity**.
 
 ---
 
 ## Key Contributions
 
-- **Novel hybrid loss function** with tunable robustness  
-- **Improved forecasting accuracy** on real public health time series  
-- **Stable training behavior** under noisy and outlier-contaminated data  
-- **Plug-and-play compatibility** with LSTM and deep learning models  
+- **Novel loss function** with tunable robustness  
+- **Rigorous gradient and Hessian analysis**  
+- **Improved stability and accuracy** on real public health data  
+- **Plug-and-play** for LSTM and deep learning models  
 
 ---
 
