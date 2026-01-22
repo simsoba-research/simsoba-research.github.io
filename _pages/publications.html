@@ -1,35 +1,47 @@
----
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
----
+{% assign post = include.post | default: post %}
 
-{% if site.author.googlescholar %}
-<div class="wordwrap">
-  You can also find my articles on
-  <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
-</div>
-{% endif %}
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-{% include base_path %}
+  {% if post.title %}
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+  {% endif %}
 
-<!-- SLIGHT BODY TEXT INCREASE (titles untouched) -->
-<div style="font-size: 1.12rem; line-height: 1.75;">
+  {% if post.venue %}
+    <p class="archive__item-excerpt">
+      <em>Published in {{ post.venue }}, {{ post.date | date: "%Y" }}</em>
+    </p>
+  {% endif %}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  {% if post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">
+      {{ post.excerpt }}
+    </p>
+  {% endif %}
 
-</div>
+  {% if post.citation %}
+    <p class="archive__item-excerpt">
+      <strong>Recommended citation:</strong> {{ post.citation }}
+    </p>
+  {% endif %}
+
+  {% if post.paperurl %}
+    <p class="archive__item-excerpt">
+      <a href="{{ post.paperurl }}">Download Paper</a>
+    </p>
+  {% endif %}
+
+  <!-- ========================= -->
+  <!-- FULL CONTENT ADDED BELOW -->
+  <!-- ========================= -->
+
+  {% if post.content %}
+    <div class="archive__item-content" style="margin-top: 1.2em;">
+      {{ post.content }}
+    </div>
+  {% endif %}
+
+  <hr>
+
+</article>
