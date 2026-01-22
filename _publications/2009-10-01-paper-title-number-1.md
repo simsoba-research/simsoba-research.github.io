@@ -13,7 +13,7 @@ venue: 'IEEE Access'
 paperurl: 'https://doi.org/10.1109/ACCESS.2025.3626795'
 citation: 'Simsoba, K.-A., Oscar, N., & Mageto, T. (2025). A Hybrid Minkowski-Log-Cosh Loss Function for Robust LSTM-Based Time Series Forecasting. IEEE Access, 13, 187307–187319.'
 mathjax: true
----
+
 
 ## Abstract
 
@@ -25,7 +25,7 @@ grounded objective designed to improve the stability and accuracy of
 monthly malaria incidence data and consistently outperforms classical loss
 functions under both clean and outlier-contaminated regimes.
 
----
+
 
 ## Loss Function Definition
 
@@ -47,7 +47,7 @@ to outliers and sensitivity to prediction errors.
 - $p \approx 2$: MSE-like behavior  
 - $p < 2$: increased robustness to outliers  
 
----
+
 
 ## Gradient Analysis
 
@@ -64,7 +64,7 @@ $$
 
 This formulation yields smooth gradients for small residuals and suppresses the
 influence of extreme errors, contributing to stable optimization.
-
+---
 ---
 
 ## Empirical Evaluation
