@@ -4,9 +4,9 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-hybrid-minkowski-log-cosh
 excerpt: >
-  We introduce a robust hybrid loss function for LSTM-based
-  time-series forecasting, improving accuracy and stability under
-  noisy and outlier-contaminated public health data.
+  This research introduces a novel hybrid loss function (MLC) designed
+  to improve LSTM performance on noisy time-series data, specifically
+  validated on public health datasets.
 date: 2025-02-15
 venue: 'IEEE Access'
 paperurl: 'https://doi.org/10.1109/ACCESS.2025.3626795'
@@ -16,7 +16,7 @@ mathjax: true
 
 ## Abstract
 
-Robust learning is essential for time-series forecasting in real-world settings where data are noisy, irregular, or contaminated by outliers. This paper proposes a **hybrid loss function** designed to improve the stability and accuracy of **LSTM-based forecasting models**. The approach is validated on long-horizon public health data, with a particular focus on malaria incidence forecasting.
+Robust learning is essential for time-series forecasting in real-world settings where data are noisy, irregular, or contaminated by outliers. This paper proposes a **Hybrid Minkowski–Log–Cosh (MLC) loss function**, a tunable and theoretically grounded objective designed to improve the stability and accuracy of **LSTM-based forecasting models**. The method is validated on long-horizon public health data, with a particular focus on malaria incidence forecasting.
 
 ---
 
@@ -32,13 +32,13 @@ $$
 \left[\log\!\big(\cosh(y_i - \hat{y}_i)\big)\right]^p
 $$
 
-where $p>0$ is a tunable Minkowski exponent controlling the trade-off
+where $p > 0$ is a tunable Minkowski exponent controlling the trade-off
 between robustness to outliers and error sensitivity.
 
 **Special cases**
-- $p = 1$: Log-Cosh loss  
-- $p \approx 2$: MSE-like behavior  
-- $p < 2$: increased robustness to outliers  
+- $p = 1$: Log-Cosh loss
+- $p \approx 2$: MSE-like behavior
+- $p < 2$: increased robustness to outliers
 
 ---
 
@@ -55,8 +55,8 @@ $$
 \tanh(\varepsilon_i)
 $$
 
-This formulation yields smooth gradients for small residuals and
-naturally suppresses the influence of extreme errors.
+This formulation yields smooth gradients for small residuals and naturally
+suppresses the influence of extreme errors.
 
 ---
 
@@ -65,9 +65,17 @@ naturally suppresses the influence of extreme errors.
 The loss was evaluated using **LSTM models** on **11 years (2013–2023)**
 of monthly malaria incidence data.
 
-- **MAPE:** reduced from 20.96% (MSE) to 18.23%
-- **MAE:** substantially lower under outlier contamination
-- **Training:** faster and more stable convergence than MSE and MAE
+### Clean data regime (best $p = 2.25$)
+- **MAE:** 2,515.38
+- **MAPE:** 18.23% (down from 20.96% with MSE)
+- **RMSE:** 3,671.74
+- Faster convergence than MSE, MAE, and Log-Cosh
+
+### Noisy / outlier-contaminated regime (best $p = 1.5$)
+- **MAE:** 3,676.36
+- **Median AE:** 2,192.06
+- **SMAPE:** 24.63%
+- Approximately **117,000 fewer mispredicted cases** compared to MSE
 
 All improvements were achieved with **$\mathcal{O}(N)$ computational
 complexity**, matching standard regression losses.
@@ -76,10 +84,10 @@ complexity**, matching standard regression losses.
 
 ## Key Contributions
 
-- Robust hybrid loss function with tunable sensitivity  
-- Improved forecasting accuracy under noisy conditions  
-- Stable optimization for recurrent neural networks  
-- Plug-and-play compatibility with deep learning frameworks  
+- Novel hybrid loss function with tunable robustness
+- Explicit gradient analysis explaining stability
+- Improved forecasting accuracy on real public health data
+- Plug-and-play compatibility with LSTM and deep learning models
 
 ---
 
@@ -115,7 +123,7 @@ doi:10.1109/ACCESS.2025.3626795.
 
 ### BibTeX
 ```bibtex
-@article{Simsoba2025,
+@article{Simsoba2025MLC,
   author  = {Simsoba, Kouyakou-Abalo and Oscar, Ngesa and Mageto, Thomas},
   title   = {A Hybrid Minkowski-Log-Cosh Loss Function for Robust LSTM-Based Time Series Forecasting},
   journal = {IEEE Access},
