@@ -6,36 +6,12 @@ author_profile: true
 mathjax: false
 ---
 
-Hello! I’m **Kouyakou-Abalo SIMSOBA**, a **Google DeepMind Scholar** pursuing an **M.Sc. in Artificial Intelligence for Science** at **Stellenbosch University** through **AIMS South Africa**.
+Hello! I’m **Kouyakou-Abalo SIMSOBA**, a **Google DeepMind Scholar** currently pursuing an **M.Sc. in Artificial Intelligence for Science** at **Stellenbosch University** through **AIMS South Africa**. My academic background includes a Master’s in **Mathematics (Statistics)** from PAUSTI as an **African Union Scholar**, and a Bachelor’s in **Mathematics and Statistics** from Université de Kara.
 
-My research focuses on **robust machine learning** and **time-series forecasting**, especially designing learning objectives that remain stable and accurate under noisy, irregular real-world data.
+My work centers on **robust machine learning** and **time-series forecasting**, with a focus on designing models that perform reliably under noisy, real-world conditions. I’m particularly interested in how the choice of loss functions influences model behavior, and have developed new methods to improve both stability and accuracy in deep learning systems.
 
----
+I recently published in **IEEE Access**, introducing a novel approach for robust LSTM-based forecasting, which demonstrated improved performance on 11 years of malaria surveillance data.
 
-## Research Focus
-
-I investigate how the **choice of loss function** affects the performance and robustness of deep learning models, particularly those based on **LSTMs**. I explore alternatives to classical losses like MSE and MAE to improve model behavior in challenging conditions.
-
----
-
-## Contribution
-
-In a recent **IEEE Access** paper, I proposed a new loss function for robust LSTM-based time-series forecasting. The method improves accuracy and convergence speed, especially in the presence of outliers, and was validated on **11 years of malaria surveillance data**.
-
----
-
-## Background
-
-- **M.Sc. in Artificial Intelligence for Science**, AIMS South Africa / Stellenbosch University  
-- **M.Sc. in Mathematics (Statistics)**, PAUSTI — African Union Scholar  
-- **B.Sc. in Mathematics and Statistics**, Université de Kara  
-
-My foundation in **mathematical statistics** supports my work in robust learning and model analysis.
-
----
-
-I welcome collaborations in **scientific forecasting**, **public health**, and **robust deep learning**.
-
----
+I’m passionate about applying AI in scientific and public health contexts, and I’m open to research collaborations at the intersection of theory and real-world impact.
 
 **[Download my CV (PDF)](/files/cv.pdf)**
