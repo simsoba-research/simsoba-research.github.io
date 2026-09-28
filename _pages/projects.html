@@ -5,85 +5,118 @@ permalink: /projects/
 author_profile: true
 ---
 
-{% include base_path %}
-
-<p style="font-family:var(--font-serif);font-size:1.02rem;line-height:1.8;margin-bottom:1.5rem;color:var(--global-text-color);">
-  My project work spans <strong>trustworthy medical AI</strong>, <strong>robust learning</strong>, applied NLP, and epidemiological modelling. Below is a selection of completed and ongoing projects.
-</p>
+<p class="lede">My project work spans <strong>trustworthy medical AI</strong>, <strong>robust learning</strong>, applied NLP, large-scale recommendation and <strong>epidemiological modelling</strong>. Every project from my CV is listed below, newest first within each theme.</p>
 
 <div class="section-divider"><span>Trustworthy ML &amp; Medical AI</span></div>
 
-<div class="research-entry">
-  <div class="entry-title">MultiMagNet — Multi-Magnification Fusion for Breast Cancer Histopathology</div>
-  <div class="entry-meta">MSc Thesis · AIMS South Africa / Stellenbosch University · Jan–Jun 2026 · <em>Ongoing extension</em></div>
-  <div class="entry-desc">
-    Four-stream ResNet-50 architecture with gated attention fusion, feature-alignment regularisation, and magnitude dropout, evaluated on BreakHis and BACH. Currently extending toward multimodal fusion (imaging + structured clinical data) and generative augmentation via diffusion and vision-language models for limited-label regimes. <strong>Manuscript in preparation.</strong>
-  </div>
-  <div class="entry-links">
-    <a href="https://drive.google.com/file/d/1ye2h_KYmO1OAUOycDggAVs0YdAhbJfKy/view?usp=sharing" target="_blank">↗ Thesis PDF</a>
-    <a href="https://github.com/Abalo39" target="_blank">↗ GitHub</a>
-  </div>
+<ul class="timeline ">
+<li class="tl-item now">
+<div class="tl-head"><span class="tl-title">MultiMagNet: Multimodal Breast Cancer Diagnosis and Staging</span><span class="tl-when">Jun 2026 – present</span></div>
+<div class="tl-meta">M.Sc. thesis extension · AIMS South Africa · <b>Ongoing</b></div>
+<div class="tl-body">
+<p>Extends MultiMagNet toward multimodal learning by fusing histopathology images with structured clinical records. Investigates diffusion models, VAEs and vision-language models for synthetic data augmentation and better generalisation when labelled data is scarce. Manuscript in preparation.</p>
 </div>
-
-<div class="research-entry">
-  <div class="entry-title">Decision-Aware Breast Cancer Classification — Deferral Policies for Human-AI Collaboration</div>
-  <div class="entry-meta">Course Project (NeurIPS format) · Algorithms for Human-AI Collaboration · AIMS South Africa · Mar–Apr 2026</div>
-  <div class="entry-desc">
-    Formalises when a deep vision model should act autonomously versus defer to a stronger expert under an explicit deployment cost structure. Derives the optimal cost-ratio confidence threshold and compares against a learned routing policy. Confidence-based deferral raised system accuracy from 71.25% to <strong>90.0%</strong> at 41.25% model coverage while <strong>cutting deployment costs by 24%</strong>. Mentored by Dr. Umang Bhatt.
-  </div>
-  <div class="entry-links">
-    <a href="https://drive.google.com/file/d/1bb-1TDHAmVaj9zg1FgohrGYCMxGwXxnr/view?usp=sharing" target="_blank">↗ PDF</a>
-  </div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Decision-Aware Breast Cancer Classification: Learning Deferral Policies for Human-AI Collaboration</span><span class="tl-when">10 Mar – 7 Apr 2026</span></div>
+<div class="tl-meta">Course project · <em>Algorithms for Human-AI Collaboration</em> · AIMS South Africa · mentored by Dr. Umang Bhatt · NeurIPS paper format</div>
+<div class="tl-body">
+<p>Formalises when a deep vision model should act on its own and when it should defer to a stronger expert model, under an explicit deployment cost structure. Derives the optimal cost-ratio confidence threshold and compares it with a learned routing policy.</p>
+<ul>
+<li>Confidence-based deferral raised system accuracy from 71.25% to <strong>90.0%</strong> at 41.25% model coverage.</li>
+<li>Cut deployment costs by <strong>24%</strong>.</li>
+</ul>
 </div>
-
-<div class="section-divider" style="margin-top:2rem;"><span>Robust Learning &amp; Forecasting</span></div>
-
-<div class="research-entry">
-  <div class="entry-title">Hybrid Minkowski–Log-Cosh Loss for Robust LSTM Forecasting</div>
-  <div class="entry-meta">MSc Thesis · PAUSTI / JKUAT · 2023–2025 · Published in IEEE Access 2025</div>
-  <div class="entry-desc">
-    Combined Minkowski and log-cosh terms into a single differentiable loss function to balance sensitivity to typical errors with robustness to outliers. Validated on 11 years of national malaria surveillance data — reduces MAPE by 13% relative to MSE baseline and cuts mispredicted cases by ~117,000 in outlier-contaminated scenarios.
-  </div>
-  <div class="entry-links">
-    <a href="https://doi.org/10.1109/ACCESS.2025.3626795" target="_blank">↗ IEEE Access</a>
-    <a href="https://github.com/Abalo39/Hybrid-Minkowski-Logcosh-Loss-LSTM" target="_blank">↗ Code</a>
-  </div>
+<div class="tl-links"><a href="https://drive.google.com/file/d/1bb-1TDHAmVaj9zg1FgohrGYCMxGwXxnr/view?usp=sharing" target="_blank" rel="noopener">PDF ↗</a></div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">MultiMagNet: Multi-Magnification Fusion for Breast Cancer Histopathology</span><span class="tl-when">Jan – Jun 2026</span></div>
+<div class="tl-meta">M.Sc. thesis · AIMS South Africa / Stellenbosch University · Awarded with Distinction · Under review at ICLR 2027</div>
+<div class="tl-body">
+<p>A four-stream ResNet-50 architecture that fuses all BreakHis magnification levels through availability masking, magnitude dropout, feature-alignment regularisation and gated attention fusion; evaluated on BreakHis and BACH.</p>
+<ul>
+<li>Reaches <strong>AUC 0.935</strong> while staying robust to missing magnification inputs.</li>
+<li>Reliability assessed with ECE, reliability diagrams, temperature scaling, MC Dropout uncertainty decomposition and Mahalanobis-distance OOD detection.</li>
+</ul>
 </div>
+<div class="tl-links"><a href="https://drive.google.com/file/d/1ye2h_KYmO1OAUOycDggAVs0YdAhbJfKy/view?usp=sharing" target="_blank" rel="noopener">Thesis PDF ↗</a><a href="https://openreview.net/forum?id=ogfxZ1EZdq" target="_blank" rel="noopener">OpenReview ↗</a><a href="https://github.com/Abalo39" target="_blank" rel="noopener">GitHub ↗</a></div>
+</li>
+</ul>
 
-<div class="section-divider" style="margin-top:2rem;"><span>Applied ML &amp; NLP</span></div>
+<div class="section-divider"><span>Robust Learning &amp; Forecasting</span></div>
 
-<div class="research-entry">
-  <div class="entry-title">Multilingual Polarization Detection — SemEval-2026 Task 9</div>
-  <div class="entry-meta">Shared Task · Applied NLP · AIMS South Africa · Nov–Dec 2025</div>
-  <div class="entry-desc">
-    Language-specific transformer ensemble (English/Swahili) with weak keyword supervision and class-imbalance-aware weighted losses. Achieved macro-F1 0.78 overall and <strong>0.82 on Swahili</strong>. Submitted and evaluated on the Codabench shared-task benchmarking platform.
-  </div>
-  <div class="entry-links">
-    <a href="https://drive.google.com/file/d/1MBkHzlyalS6FKquRAf9KACh2qj2DIo2U/view?usp=sharing" target="_blank">↗ PDF</a>
-  </div>
+<ul class="timeline ">
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Hybrid Minkowski–Log-Cosh Loss for Robust LSTM Forecasting</span><span class="tl-when">2023 – 2025</span></div>
+<div class="tl-meta">M.Sc. thesis · PAUSTI / JKUAT · Published in <em>IEEE Access</em>, 2025</div>
+<div class="tl-body">
+<p>Combines Minkowski and log-cosh terms into a single differentiable loss that balances sensitivity to typical errors with robustness to outliers. Validated on 11 years of national malaria surveillance data and across further time-series benchmarks.</p>
+<ul>
+<li>Reduced MAPE from 20.96% to 18.23%, a <strong>13% relative improvement</strong>.</li>
+<li>Cut mispredicted cases by about 117,000 in outlier-contaminated scenarios.</li>
+</ul>
 </div>
+<div class="tl-links"><a href="https://doi.org/10.1109/ACCESS.2025.3626795" target="_blank" rel="noopener">IEEE Access ↗</a><a href="https://github.com/Abalo39/Hybrid-Minkowski-Logcosh-Loss-LSTM" target="_blank" rel="noopener">Code ↗</a></div>
+</li>
+</ul>
 
-<div class="research-entry">
-  <div class="entry-title">Scalable Recommenders on MovieLens-32M</div>
-  <div class="entry-meta">Systems-Scale ML · AIMS South Africa · Nov 2025–Jan 2026</div>
-  <div class="entry-desc">
-    Sparsity-aware Alternating Least Squares (ALS) recommendation framework extended toward content-aware fusion. Built to handle 32M ratings efficiently with GPU acceleration.
-  </div>
-  <div class="entry-links">
-    <a href="https://drive.google.com/file/d/1piNIAt51nFnq8Z7reXhTCppNQ_-H5X8u/view?usp=sharing" target="_blank">↗ PDF</a>
-    <a href="https://github.com/Abalo39/Machine_learning_at_scale" target="_blank">↗ Code</a>
-  </div>
+<div class="section-divider"><span>Applied ML, NLP &amp; Systems</span></div>
+
+<ul class="timeline ">
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Scalable Recommenders on MovieLens-32M</span><span class="tl-when">24 Nov 2025 – 10 Jan 2026</span></div>
+<div class="tl-meta">Systems-scale ML · AIMS South Africa</div>
+<div class="tl-body">
+<p>A sparsity-aware Alternating Least Squares (ALS) recommendation framework, extended toward content-aware fusion. Built to handle 32M ratings efficiently with GPU acceleration.</p>
 </div>
-
-<div class="section-divider" style="margin-top:2rem;"><span>Epidemiological Modelling</span></div>
-
-<div class="research-entry">
-  <div class="entry-title">Mpox Transmission Dynamics — South Kivu, DRC</div>
-  <div class="entry-meta">MMED Clinic · ICI3D / SACEMA, Stellenbosch University · Jun 2026</div>
-  <div class="entry-desc">
-    Compartmental (SIR/SEIR and stochastic SEIRV) modelling, parameter estimation, and model fitting for Mpox transmission dynamics in South Kivu, DRC. Built R-based data cleaning pipelines and delivered a Beamer presentation as part of the ICI3D MMED programme.
-  </div>
-  <div class="entry-links">
-    <a href="https://drive.google.com/file/d/15HbvkZ-1JzCBfbTrvKYJilkHFa5iqwfy/view?usp=sharing" target="_blank">↗ Certificate</a>
-  </div>
+<div class="tl-links"><a href="https://drive.google.com/file/d/1piNIAt51nFnq8Z7reXhTCppNQ_-H5X8u/view?usp=sharing" target="_blank" rel="noopener">PDF ↗</a><a href="https://github.com/Abalo39/Machine_learning_at_scale" target="_blank" rel="noopener">Code ↗</a></div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Multilingual Polarization Detection, SemEval-2026 Task 9</span><span class="tl-when">16 Nov – 16 Dec 2025</span></div>
+<div class="tl-meta">Shared task · Applied NLP · AIMS South Africa · evaluated on Codabench</div>
+<div class="tl-body">
+<p>A language-specific transformer ensemble for English and Swahili, trained with weak keyword supervision and class-imbalance-aware weighted losses.</p>
+<ul><li>Macro-F1 <strong>0.78 overall</strong> and <strong>0.82 on Swahili</strong>.</li></ul>
 </div>
+<div class="tl-links"><a href="https://drive.google.com/file/d/1MBkHzlyalS6FKquRAf9KACh2qj2DIo2U/view?usp=sharing" target="_blank" rel="noopener">PDF ↗</a></div>
+</li>
+</ul>
+
+<div class="section-divider"><span>Epidemiological Modelling</span></div>
+
+<ul class="timeline ">
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Mpox Transmission Dynamics in South Kivu, DRC</span><span class="tl-when">15 – 26 Jun 2026</span></div>
+<div class="tl-meta">Meaningful Modelling of Epidemiological Data (MMED) Clinic · ICI3D programme hosted by SACEMA, Stellenbosch University</div>
+<div class="tl-body">
+<p>Team project on Mpox transmission: compartmental modelling (SIR/SEIR and stochastic SEIRV), parameter estimation and model fitting, with R-based data cleaning pipelines and a Beamer presentation.</p>
+</div>
+<div class="tl-links"><a href="https://drive.google.com/file/d/15HbvkZ-1JzCBfbTrvKYJilkHFa5iqwfy/view?usp=sharing" target="_blank" rel="noopener">Certificate ↗</a></div>
+</li>
+</ul>
+
+<div class="section-divider"><span>Talks, Events &amp; Training</span></div>
+
+<ul class="timeline compact">
+<li class="tl-item now">
+<div class="tl-head"><span class="tl-title">Invited Speaker, ACIAM 2026</span><span class="tl-when">Oct 2026 · upcoming</span></div>
+<div class="tl-meta">African Conference for Industrial and Applied Mathematics · Ouagadougou, Burkina Faso</div>
+<div class="tl-links"><a href="https://drive.google.com/file/d/1Y8lsSiYJ6imiWvUYQjWp2Bpvv_ULsgPG/view?usp=sharing" target="_blank" rel="noopener">Invitation letter ↗</a></div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Deep Learning Indaba 2026</span><span class="tl-when">2 – 7 Aug 2026</span></div>
+<div class="tl-meta">Pan-Atlantic University, Lagos, Nigeria</div>
+<div class="tl-body">
+<p>Sessions on Agentic AI, Computer Vision, Trustworthy &amp; Ethical AI Design, and AI Evaluation in African Contexts.</p>
+</div>
+<div class="tl-links"><a href="https://drive.google.com/file/d/18ndoMZutSWAvfBRaKs8d54N_KWSQ84GA/view?usp=sharing" target="_blank" rel="noopener">Invitation letter ↗</a></div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Google AI Research Foundations</span><span class="tl-when">Jul 2026</span></div>
+<div class="tl-meta">Google DeepMind / Google Skills</div>
+<div class="tl-body">
+<p>Six-module path on LLM training and fine-tuning, LoRA, and GPU-accelerated training.</p>
+</div>
+<div class="tl-links"><a href="https://www.skills.google/public_profiles/77badf7c-2029-47f9-a95e-7ff25c3dd7cd" target="_blank" rel="noopener">Badges ↗</a></div>
+</li>
+</ul>

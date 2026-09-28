@@ -5,60 +5,117 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
-
-<p style="font-family:var(--font-serif);font-size:1.02rem;line-height:1.82;margin-bottom:0.5rem;color:var(--global-text-color);">
-  Teaching is central to my academic identity. I have taught across secondary school, graduate, and university levels in Togo and Kenya, spanning mathematics, statistics, physics, and machine learning.
-</p>
+<p class="lede">Teaching is central to my academic identity. I have taught mathematics, physics, statistics and optimization across secondary, graduate and university levels in Togo, and I now lecture discrete mathematics to future software engineers at ESAM.</p>
 
 <div class="section-divider"><span>University Lecturing</span></div>
 
-<div class="teaching-card">
-  <div class="tc-title">Mathematical Tools for Software Engineering (UE MVA003)</div>
-  <div class="tc-meta">Lecturer · École Supérieure d'Audit et de Management (ESAM), Lomé · Sept 2026 – Present · 72 h · 6 ECTS · LP157 (first-year Licence professionnelle)</div>
-  <div class="tc-body">
-    <p>Designed and deliver a comprehensive discrete mathematics course grounded in computing applications. Each unit leads with a real engineering problem before developing the underlying theory.</p>
-    <ul>
-      <li>Set theory, relations, and functions — applied to data modelling and type systems</li>
-      <li>Combinatorics and probability — keyspace counting, system reliability analysis</li>
-      <li>Arithmetic and number theory — cryptographic foundations (RSA, modular arithmetic)</li>
-      <li>Boolean algebra and logic — digital circuit design, SAT problems</li>
-      <li>Graph theory and induction — task-dependency ordering, algorithmic proofs</li>
-    </ul>
-  </div>
+<ul class="timeline ">
+<li class="tl-item now">
+<div class="tl-head"><span class="tl-title">Mathematical Tools for Software Engineering (UE MVA003)</span><span class="tl-when">Sept 2026 – present</span></div>
+<div class="tl-meta">Lecturer · École Supérieure d'Audit et de Management (ESAM), Lomé</div>
+<div class="tl-body">
+<p>I designed and deliver this discrete-mathematics course for first-year Licence professionnelle students. Each chapter opens with a real engineering problem and then builds the mathematics needed to solve it. The full syllabus is below.</p>
+</div>
+</li>
+</ul>
+
+<div id="esam-syllabus"></div>
+
+<div class="section-divider"><span>Course Syllabus · UE MVA003</span></div>
+
+<div class="facts">
+<span><b>72 h</b>total volume</span>
+<span><b>6</b>ECTS credits</span>
+<span><b>LP157</b>first-year Licence professionnelle</span>
+<span><b>ESAM</b>Lomé, Togo</span>
 </div>
 
-<div class="section-divider" style="margin-top:2rem;"><span>Graduate Tutoring</span></div>
+<p class="lede" style="font-size:1.02rem;">The course gives software-engineering students the mathematical vocabulary behind everyday computing. Every chapter is grounded in an application: sizing a keyspace, estimating the reliability of a system, ordering dependent tasks, computing with ciphers, designing a logic circuit and proving that an algorithm is correct.</p>
 
-<div class="teaching-card">
-  <div class="tc-title">Inferential Statistics &amp; Convex Optimization</div>
-  <div class="tc-meta">Volunteer Graduate Tutor · Big Data Master's Programme · École Polytechnique de Lomé · 2022</div>
-  <div class="tc-body">
-    <p>Delivered weekly problem-solving sessions on inferential statistics and convex optimization (Lagrange multipliers, KKT conditions) to Master Big Data students.</p>
-    <ul>
-      <li><strong>100%</strong> pass rate in inferential statistics; <strong>~80%</strong> in optimization</li>
-      <li>Developed custom problem sets bridging theory and real data applications</li>
-    </ul>
-  </div>
+<ul class="timeline numbered">
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Set Theory</span></div>
+<div class="tl-body">
+<p>Sets, subsets and operations; Venn diagrams; power sets and Cartesian products; cardinality and inclusion–exclusion.</p><p><strong>Applied to:</strong> Data modelling and set-based queries.</p>
 </div>
-
-<div class="section-divider" style="margin-top:2rem;"><span>Secondary School Teaching</span></div>
-
-<div class="teaching-card">
-  <div class="tc-title">Mathematics &amp; Physics</div>
-  <div class="tc-meta">Teacher · Public Secondary Schools, Kara, Togo · 2019 – 2023</div>
-  <div class="tc-body">
-    <p>Taught advanced mathematics and physics with emphasis on conceptual understanding and systematic problem-solving. Improved class averages by approximately 3 points through targeted lesson plans.</p>
-    <p><strong>Mathematics:</strong> Probability, combinatorics, set theory, proof techniques, polynomial and rational functions, limits, continuity, differentiation, complex numbers, sequences.</p>
-    <p><strong>Physics:</strong> Kinematics, Newtonian dynamics, waves, electrostatics, AC/RLC circuits, thermodynamics.</p>
-    <ul>
-      <li>Mentored students for competitive national and international scholarships</li>
-    </ul>
-  </div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Combinatorics</span></div>
+<div class="tl-body">
+<p>Rules of sum and product; permutations and combinations; binomial coefficients; the pigeonhole principle.</p><p><strong>Applied to:</strong> Keyspace counting: how many passwords, keys or identifiers a policy allows.</p>
 </div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Probability</span></div>
+<div class="tl-body">
+<p>Sample spaces and events; conditional probability and independence; Bayes' rule.</p><p><strong>Applied to:</strong> System reliability: failure probabilities of series and parallel components.</p>
+</div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Relations</span></div>
+<div class="tl-body">
+<p>Binary relations and their properties; equivalence relations and classes; partial orders and Hasse diagrams.</p><p><strong>Applied to:</strong> Task-dependency ordering, as in build systems and scheduling.</p>
+</div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Arithmetic</span></div>
+<div class="tl-body">
+<p>Divisibility; the Euclidean algorithm and gcd; primes; modular arithmetic and inverses.</p><p><strong>Applied to:</strong> Cryptographic arithmetic, up to RSA.</p>
+</div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Boolean Algebra</span></div>
+<div class="tl-body">
+<p>Boolean functions and laws; truth tables; normal forms; simplification.</p><p><strong>Applied to:</strong> Digital-circuit design with logic gates.</p>
+</div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Logic and Induction</span></div>
+<div class="tl-body">
+<p>Propositional and predicate logic; quantifiers; proof techniques; mathematical induction.</p><p><strong>Applied to:</strong> Algorithmic induction: proving loops and recursive algorithms correct.</p>
+</div>
+</li>
+</ul>
 
-<div class="section-divider" style="margin-top:2rem;"><span>Open to Teaching</span></div>
+<div class="section-divider"><span>What Students Take Away</span></div>
 
-<p style="font-family:var(--font-serif);font-size:1rem;line-height:1.82;color:var(--global-text-color);">
-  I am open to part-time or <em>vacataire</em> instructor positions in <strong>statistics, probability, econometrics, machine learning,</strong> and <strong>applied data science</strong>. Please reach me at <a href="mailto:kouyakou@aims.ac.za">kouyakou@aims.ac.za</a>.
-</p>
+<div class="tl-body"><ul>
+<li>Count configurations rigorously, to size keyspaces and search spaces.</li>
+<li>Quantify reliability and risk with probability.</li>
+<li>Reason about order and dependency with relations and partial orders.</li>
+<li>Use modular arithmetic, Boolean algebra and induction as working tools in cryptography, hardware and algorithm design.</li>
+</ul></div>
+
+<div class="section-divider"><span>Graduate Tutoring</span></div>
+
+<ul class="timeline ">
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Inferential Statistics &amp; Convex Optimization</span><span class="tl-when">2022</span></div>
+<div class="tl-meta">Volunteer Graduate Tutor · Big Data Master's Programme · École Polytechnique de Lomé</div>
+<div class="tl-body">
+<p>Weekly problem-solving sessions on inferential statistics and convex optimization (Lagrange multipliers, KKT conditions) for Master Big Data students.</p>
+<ul>
+<li><strong>100%</strong> pass rate in inferential statistics; <strong>~80%</strong> in optimization.</li>
+<li>Custom problem sets bridging theory and real data applications.</li>
+</ul>
+</div>
+</li>
+</ul>
+
+<div class="section-divider"><span>Secondary School Teaching</span></div>
+
+<ul class="timeline ">
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Mathematics &amp; Physics</span><span class="tl-when">2019 – 2023</span></div>
+<div class="tl-meta">Teacher · Kara Secondary School, Togo</div>
+<div class="tl-body">
+<p>Taught advanced mathematics and physics with an emphasis on conceptual understanding and systematic problem-solving. Improved class averages by about 3 points through targeted lesson plans, and mentored students for competitive national and international scholarships.</p>
+<p><strong>Mathematics:</strong> probability, combinatorics, set theory, proof techniques, polynomial and rational functions, limits, continuity, differentiation, complex numbers, sequences.</p>
+<p><strong>Physics:</strong> kinematics, Newtonian dynamics, waves, electrostatics, AC/RLC circuits, thermodynamics.</p>
+</div>
+</li>
+</ul>
+
+<div class="section-divider"><span>Open to Teaching</span></div>
+
+<p class="lede" style="font-size:1.02rem;">I am open to part-time or <em>vacataire</em> instructor positions in <strong>statistics, probability, econometrics, machine learning</strong> and <strong>applied data science</strong>. Please reach me at <a href="mailto:kouyakou@aims.ac.za">kouyakou@aims.ac.za</a>.</p>
