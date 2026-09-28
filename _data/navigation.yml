@@ -2,10 +2,13 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Education"
+    url: /education/
+
   - title: "Projects"
     url: /projects/
 
-  - title: "Teaching"
+  - title: "Teaching & Mentoring"
     url: /teaching/
 
   - title: "CV"

@@ -7,55 +7,65 @@ author_profile: true
 
 {% include base_path %}
 
-{% if site.author.googlescholar %}
 <p style="font-family:var(--font-sans);font-size:0.88rem;color:var(--muted);margin-bottom:1.5rem;">
-  Full list also on <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Google Scholar</a>
-  and <a href="https://orcid.org/0009-0005-4050-5040" target="_blank" rel="noopener">ORCID</a>.
+  Full list on <a href="https://scholar.google.com/citations?hl=en&user=RtYAMMoAAAAJ" target="_blank">Google Scholar</a> ·
+  <a href="https://orcid.org/0009-0005-4050-5040" target="_blank">ORCID</a> ·
+  <a href="https://www.researchgate.net/profile/Kouyakou-Abalo-Simsoba" target="_blank">ResearchGate</a>
 </p>
-{% endif %}
 
-<div class="section-divider"><span>Journal Articles</span></div>
+<div class="section-divider"><span>Under Review</span></div>
+
+<div class="pub-card">
+  <span class="pub-title">MultiMagNet: Multi-Magnification Fusion with Availability Masking, Magnitude Dropout, and Feature Alignment Regularisation for Robust Breast Cancer Histopathology Classification</span>
+  <p class="pub-authors"><strong>Simsoba, K.-A.</strong> &amp; Ezugwu, A. E.-S.</p>
+  <p class="pub-venue">Submitted to ICLR 2027 · Under Review</p>
+  <p style="font-family:var(--font-serif);font-size:0.9rem;color:var(--global-text-color);line-height:1.72;margin:0.4rem 0 0.6rem;">
+    Four-stream fusion of all BreakHis magnification levels via availability masking, magnitude dropout, and attention-gated fusion. Achieves <strong>AUC 0.935</strong> while remaining robust to missing inputs and clinical variability. First author: conceived the architecture, designed and implemented all modules, ran all experiments, wrote the manuscript.
+  </p>
+  <div class="pub-links">
+    <a class="primary" href="https://openreview.net/forum?id=ogfxZ1EZdq" target="_blank">↗ OpenReview</a>
+    <a href="https://drive.google.com/file/d/1ye2h_KYmO1OAUOycDggAVs0YdAhbJfKy/view?usp=sharing" target="_blank">↗ Thesis PDF</a>
+    <a href="https://github.com/Abalo39" target="_blank">↗ Code</a>
+  </div>
+</div>
+
+<div class="section-divider" style="margin-top:2rem;"><span>Peer-Reviewed Journal Articles</span></div>
 
 <div class="pub-card">
   <span class="pub-title">A Hybrid Minkowski–Log-Cosh Loss Function for Robust LSTM-Based Time Series Forecasting</span>
   <p class="pub-authors"><strong>Simsoba, K.-A.</strong>, Ngesa, O., &amp; Mageto, T.</p>
-  <p class="pub-venue">IEEE Access, vol. 13, pp. 187307–187319 · 2025 · Q1, IF 3.9 · Scopus &amp; Web of Science indexed</p>
-  <p style="font-family:var(--font-serif);font-size:0.9rem;color:var(--global-text-color);line-height:1.7;margin:0.4rem 0 0.6rem;">
-    Introduces a differentiable loss combining Minkowski and log-cosh terms to balance sensitivity to typical errors with robustness to outliers. Validated on 11 years of national malaria surveillance data — reduces MAPE from 20.96% to 18.23% (13% relative improvement) and cuts mispredicted cases by ~117,000 in outlier-contaminated scenarios. <em>First author</em>: conceived the problem, designed and implemented the loss function, ran all experiments, wrote the manuscript.
+  <p class="pub-venue">IEEE Access, vol. 13, pp. 187307–187319 · 2025 · Q1, IF 3.9 · Scopus &amp; Web of Science</p>
+  <p style="font-family:var(--font-serif);font-size:0.9rem;color:var(--global-text-color);line-height:1.72;margin:0.4rem 0 0.6rem;">
+    Introduces a differentiable loss combining Minkowski and log-cosh terms to balance sensitivity to typical errors with robustness to outliers. Validated on 11 years of national malaria surveillance data — reduces MAPE from 20.96% to 18.23% (<strong>13% relative improvement</strong>) and cuts mispredicted cases by ~117,000 in outlier-contaminated scenarios. <em>First author.</em>
   </p>
   <div class="pub-links">
-    <a class="primary" href="https://doi.org/10.1109/ACCESS.2025.3626795" target="_blank" rel="noopener">↗ DOI</a>
-    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11220969" target="_blank" rel="noopener">↗ PDF</a>
-    <a href="https://github.com/Abalo39/Hybrid-Minkowski-Logcosh-Loss-LSTM" target="_blank" rel="noopener">↗ Code</a>
-    <a href="https://scholar.google.com/citations?hl=en&user=RtYAMMoAAAAJ" target="_blank" rel="noopener">↗ Google Scholar</a>
+    <a class="primary" href="https://doi.org/10.1109/ACCESS.2025.3626795" target="_blank">↗ DOI</a>
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11220969" target="_blank">↗ PDF</a>
+    <a href="https://github.com/Abalo39/Hybrid-Minkowski-Logcosh-Loss-LSTM" target="_blank">↗ Code</a>
   </div>
 </div>
 
-<div class="section-divider" style="margin-top:2rem;"><span>Thesis</span></div>
+<div class="section-divider" style="margin-top:2rem;"><span>Manuscripts in Preparation</span></div>
 
 <div class="pub-card">
-  <span class="pub-title">MultiMagNet: A Multi-Magnification Fusion Framework for Breast Cancer Histopathology Classification</span>
-  <p class="pub-authors"><strong>Simsoba, K.-A.</strong></p>
-  <p class="pub-venue">MSc Thesis (Awarded with Distinction) · AIMS South Africa / Stellenbosch University · 2026</p>
-  <p style="font-family:var(--font-serif);font-size:0.9rem;color:var(--global-text-color);line-height:1.7;margin:0.4rem 0 0.6rem;">
-    Four-stream ResNet-50 architecture with gated attention fusion, feature-alignment regularisation, and magnitude dropout. Evaluated on BreakHis and BACH. Model reliability assessed through ECE, reliability diagrams, temperature scaling, MC Dropout uncertainty decomposition (aleatoric / epistemic), and Mahalanobis-distance OOD detection. Supervised by Google DeepMind Scholar programme at AIMS South Africa.
+  <span class="pub-title">MultiMagNet: Multimodal Fusion of Histopathology Imaging and Structured Clinical Data for Breast Cancer Diagnosis and Staging</span>
+  <p class="pub-authors"><strong>Simsoba, K.-A.</strong> et al.</p>
+  <p class="pub-venue">Manuscript in Preparation · 2026</p>
+  <p style="font-family:var(--font-serif);font-size:0.9rem;color:var(--global-text-color);line-height:1.72;margin:0.4rem 0 0.6rem;">
+    Extends the MSc thesis toward multimodal learning — fusing histopathology images with structured clinical records. Investigates diffusion models, VAEs, and vision-language models for synthetic data augmentation under limited labelled data.
   </p>
-  <div class="pub-links">
-    <a class="primary" href="https://drive.google.com/file/d/1ye2h_KYmO1OAUOycDggAVs0YdAhbJfKy/view?usp=sharing" target="_blank" rel="noopener">↗ Thesis PDF</a>
-    <a href="https://github.com/Abalo39" target="_blank" rel="noopener">↗ GitHub</a>
-  </div>
 </div>
 
-<div class="section-divider" style="margin-top:2rem;"><span>Preprints &amp; Workshop Papers</span></div>
+<div class="section-divider" style="margin-top:2rem;"><span>Technical Reports &amp; Workshop Papers</span></div>
 
 <div class="pub-card">
   <span class="pub-title">Decision-Aware Breast Cancer Classification: Learning Deferral Policies for Human-AI Collaboration</span>
   <p class="pub-authors"><strong>Simsoba, K.-A.</strong></p>
-  <p class="pub-venue">Course Project (NeurIPS format) · Algorithms for Human-AI Collaboration · AIMS South Africa · 2026</p>
-  <p style="font-family:var(--font-serif);font-size:0.9rem;color:var(--global-text-color);line-height:1.7;margin:0.4rem 0 0.6rem;">
-    Formalises when a deep vision model should act autonomously versus defer to a stronger expert under explicit deployment cost structure. Derives the optimal cost-ratio confidence threshold and compares against a learned routing policy. Confidence-based deferral raises system accuracy from 71.25% to <strong>90.0%</strong> at 41.25% coverage while cutting deployment costs by 24%. Mentored by Dr. Umang Bhatt.
+  <p class="pub-venue">NeurIPS-format course project · AIMS South Africa · 2026 · Mentored by Dr. Umang Bhatt</p>
+  <p style="font-family:var(--font-serif);font-size:0.9rem;color:var(--global-text-color);line-height:1.72;margin:0.4rem 0 0.6rem;">
+    Formalises when a deep vision model should act autonomously versus defer to a stronger expert under explicit deployment cost structure. Confidence-based deferral raises accuracy from 71.25% → <strong>90.0%</strong> at 41.25% coverage while cutting costs 24%.
   </p>
   <div class="pub-links">
-    <a class="primary" href="https://drive.google.com/file/d/1bb-1TDHAmVaj9zg1FgohrGYCMxGwXxnr/view?usp=sharing" target="_blank" rel="noopener">↗ PDF</a>
+    <a class="primary" href="https://drive.google.com/file/d/1bb-1TDHAmVaj9zg1FgohrGYCMxGwXxnr/view?usp=sharing" target="_blank">↗ PDF</a>
   </div>
 </div>
