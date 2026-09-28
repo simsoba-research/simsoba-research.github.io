@@ -59,7 +59,7 @@ mathjax: false
 </li>
 <li class="tl-item ">
 <span class="tl-date">2018</span>
-<div class="tl-body">Began the B.Sc. in Mathematics, Statistics and Applications at Université de Kara (<em>Mention Bien</em>, ranked 1st in the cohort).</div>
+<div class="tl-body">Began the B.Sc. in Mathematics, Statistics and Socio-Economic Applications at Université de Kara (<em>Mention Bien</em>, ranked 1st in the cohort).</div>
 </li>
 <li class="tl-item ">
 <span class="tl-date">2015</span>

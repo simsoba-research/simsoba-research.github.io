@@ -30,7 +30,7 @@ author_profile: true
 </div>
 </li>
 <li class="tl-item lvl-1">
-<div class="tl-head"><span class="tl-title">B.Sc. in Mathematics, Statistics and Applications</span><span class="tl-when">2018 – 2021</span></div>
+<div class="tl-head"><span class="tl-title">B.Sc. in Mathematics, Statistics and Socio-Economic Applications</span><span class="tl-when">2018 – 2021</span></div>
 <div class="tl-meta">Université de Kara, Togo · Mention Bien</div>
 <div class="tl-body">
 <p>Courses: Actuarial Science, C/C++, Databases (SQL/MySQL), Python, R, SPSS, STATA.</p>
