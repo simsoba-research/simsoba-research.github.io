@@ -15,7 +15,6 @@
     <div class="sf-col">
       <h4>Explore</h4>
       <ul>
-        <li><a href="{{ base_path }}/">About</a></li>
         {% for link in site.data.navigation.main %}
         <li><a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
