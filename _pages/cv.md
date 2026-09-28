@@ -137,10 +137,10 @@ author_profile: true
 
 <ul class="timeline compact">
 <li class="tl-item now">
-<div class="tl-head"><span class="tl-title">Lecturer, ESAM Lomé</span><span class="tl-when">Sept 2026 – present</span></div>
+<div class="tl-head"><span class="tl-title">Lecturer, ESAM Lomé (Higher School of Audit and Management)</span><span class="tl-when">Sept 2026 – present</span></div>
 <div class="tl-meta">Mathematical Tools for Software Engineering (UE MVA003) · 72 h · 6 ECTS · LP157</div>
 <div class="tl-body">
-<p>Discrete mathematics for first-year Licence professionnelle students: set theory, combinatorics, probability, relations, arithmetic, Boolean algebra and logic. <a href="/teaching/">Full syllabus →</a></p>
+<p>Discrete mathematics for first-year Licence professionnelle (professional bachelor's) students: set theory, combinatorics, probability, relations, arithmetic, Boolean algebra and logic. <a href="/teaching/">Full syllabus →</a></p>
 </div>
 </li>
 <li class="tl-item ">
@@ -173,6 +173,10 @@ author_profile: true
 <div class="tl-links"><a href="https://drive.google.com/file/d/18ndoMZutSWAvfBRaKs8d54N_KWSQ84GA/view?usp=sharing" target="_blank" rel="noopener">Letter ↗</a></div>
 </li>
 <li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Deep Learning Indaba 2025</span><span class="tl-when">17 – 22 Aug 2025</span></div>
+<div class="tl-meta">University of Rwanda, Kigali, Rwanda · NLP, Reinforcement Learning, AI in Healthcare, AI Governance</div>
+</li>
+<li class="tl-item ">
 <div class="tl-head"><span class="tl-title">Google AI Research Foundations</span><span class="tl-when">Jul 2026</span></div>
 <div class="tl-meta">Google DeepMind / Google Skills · six modules on LLM training and fine-tuning, LoRA, GPU-accelerated training</div>
 <div class="tl-links"><a href="https://www.skills.google/public_profiles/77badf7c-2029-47f9-a95e-7ff25c3dd7cd" target="_blank" rel="noopener">Badges ↗</a></div>
@@ -183,7 +187,7 @@ author_profile: true
 </li>
 <li class="tl-item ">
 <div class="tl-head"><span class="tl-title">Data Science and Scientific Computing FDP</span><span class="tl-when">Jan 2024</span></div>
-<div class="tl-meta">Faculty Development Programme · Central University of Punjab, India</div>
+<div class="tl-meta">14-day Faculty Development Programme · Central University of Punjab, Poornima University and MathTech Thinking Foundation, India</div>
 </li>
 </ul>
 

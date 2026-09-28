@@ -9,7 +9,7 @@ author_profile: true
 mathjax: false
 ---
 
-<p class="lede">I am <strong>Kouyakou-Abalo SIMSOBA</strong>, a Togolese AI researcher and mathematician building machine learning that can be trusted in medicine and science. I hold two Master's degrees: an <strong>M.Sc. in Artificial Intelligence for Science</strong> from AIMS South Africa and Stellenbosch University, as a <strong>Google DeepMind Scholar</strong>, and an <strong>M.Sc. in Mathematics (Statistics)</strong> from PAUSTI and JKUAT in Kenya, as an <strong>African Union Scholar</strong>. Since July 2026 I have also worked as an <strong>independent researcher</strong>, continuing my research programme on trustworthy medical artificial intelligence while I lecture discrete mathematics to future software engineers at ESAM Lomé, where I live.</p>
+<p class="lede">I am <strong>Kouyakou-Abalo SIMSOBA</strong>, a Togolese AI researcher and mathematician building machine learning that can be trusted in medicine and science. I hold two Master's degrees: an <strong>M.Sc. in Artificial Intelligence for Science</strong> from AIMS South Africa and Stellenbosch University, as a <strong>Google DeepMind Scholar</strong>, and an <strong>M.Sc. in Mathematics (Statistics)</strong> from PAUSTI and JKUAT in Kenya, as an <strong>African Union Scholar</strong>. Since July 2026 I have also worked as an <strong>independent researcher</strong>, continuing my research programme on trustworthy medical artificial intelligence while I lecture discrete mathematics to future software engineers at the École Supérieure d'Audit et de Management (ESAM, the Higher School of Audit and Management) in Lomé, where I live.</p>
 
 <p class="lede">I came to research through the classroom. I taught mathematics and physics in Togolese secondary schools for four years before moving into statistics and machine learning, and that habit of explaining things plainly still shapes how I write papers, build models and design courses.</p>
 
@@ -102,10 +102,6 @@ mathjax: false
 </li>
 </ul>
 
-<div class="section-divider"><span>Conferences</span></div>
-
-<p class="lede" style="font-size:1.02rem;">I present and learn at African and international meetings in AI and applied mathematics: an invited talk at <strong>ACIAM 2026</strong>, <strong>Deep Learning Indaba 2026</strong> in Lagos, and the <strong>MMED epidemiological modelling clinic</strong>. <a href="/conferences/">Read the full conference record →</a></p>
-
 <div class="section-divider"><span>Awards &amp; Honors</span></div>
 
 <ul class="award-list">
@@ -155,6 +151,10 @@ mathjax: false
 <span class="tl-date">Oct 2025</span>
 <div class="tl-body">First-author paper published in <a href="https://doi.org/10.1109/ACCESS.2025.3626795" target="_blank" rel="noopener">IEEE Access</a>: 13% relative MAPE improvement on 11 years of malaria surveillance data.</div>
 </li>
+<li class="tl-item ">
+<span class="tl-date">Aug 2025</span>
+<div class="tl-body">Attended <strong>Deep Learning Indaba 2025</strong>, University of Rwanda, Kigali (17–22 Aug). <a href="/conferences/">All conferences →</a></div>
+</li>
 </ul>
 
 <div class="section-divider"><span>Toolbox</span></div>
@@ -168,4 +168,4 @@ mathjax: false
 
 <div class="section-divider"><span>Get in Touch</span></div>
 
-<p class="lede" style="font-size:1.02rem;">I am looking for a <strong>fully funded Ph.D. starting in 2027</strong> in machine learning, statistics or trustworthy AI, ideally in trustworthy medical artificial intelligence. I am also open to research collaborations and to part-time <em>vacataire</em> teaching in statistics, probability, econometrics and machine learning. Write to me at <a href="mailto:kouyakou@aims.ac.za">kouyakou@aims.ac.za</a>.</p>
+<p class="lede" style="font-size:1.02rem;">I am looking for a <strong>fully funded Ph.D. starting in 2027</strong> in machine learning, statistics or trustworthy AI, ideally in trustworthy medical artificial intelligence. I am also open to research collaborations and to part-time visiting-lecturer (<em>vacataire</em>) teaching in statistics, probability, econometrics and machine learning. Write to me at <a href="mailto:kouyakou@aims.ac.za">kouyakou@aims.ac.za</a>.</p>
