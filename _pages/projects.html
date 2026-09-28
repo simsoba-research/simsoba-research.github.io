@@ -1,0 +1,89 @@
+---
+layout: single
+title: "Research Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p style="font-family:var(--font-serif);font-size:1.02rem;line-height:1.8;margin-bottom:1.5rem;color:var(--global-text-color);">
+  My project work spans <strong>trustworthy medical AI</strong>, <strong>robust learning</strong>, applied NLP, and epidemiological modelling. Below is a selection of completed and ongoing projects.
+</p>
+
+<div class="section-divider"><span>Trustworthy ML &amp; Medical AI</span></div>
+
+<div class="research-entry">
+  <div class="entry-title">MultiMagNet — Multi-Magnification Fusion for Breast Cancer Histopathology</div>
+  <div class="entry-meta">MSc Thesis · AIMS South Africa / Stellenbosch University · Jan–Jun 2026 · <em>Ongoing extension</em></div>
+  <div class="entry-desc">
+    Four-stream ResNet-50 architecture with gated attention fusion, feature-alignment regularisation, and magnitude dropout, evaluated on BreakHis and BACH. Currently extending toward multimodal fusion (imaging + structured clinical data) and generative augmentation via diffusion and vision-language models for limited-label regimes. <strong>Manuscript in preparation.</strong>
+  </div>
+  <div class="entry-links">
+    <a href="https://drive.google.com/file/d/1ye2h_KYmO1OAUOycDggAVs0YdAhbJfKy/view?usp=sharing" target="_blank">↗ Thesis PDF</a>
+    <a href="https://github.com/Abalo39" target="_blank">↗ GitHub</a>
+  </div>
+</div>
+
+<div class="research-entry">
+  <div class="entry-title">Decision-Aware Breast Cancer Classification — Deferral Policies for Human-AI Collaboration</div>
+  <div class="entry-meta">Course Project (NeurIPS format) · Algorithms for Human-AI Collaboration · AIMS South Africa · Mar–Apr 2026</div>
+  <div class="entry-desc">
+    Formalises when a deep vision model should act autonomously versus defer to a stronger expert under an explicit deployment cost structure. Derives the optimal cost-ratio confidence threshold and compares against a learned routing policy. Confidence-based deferral raised system accuracy from 71.25% to <strong>90.0%</strong> at 41.25% model coverage while <strong>cutting deployment costs by 24%</strong>. Mentored by Dr. Umang Bhatt.
+  </div>
+  <div class="entry-links">
+    <a href="https://drive.google.com/file/d/1bb-1TDHAmVaj9zg1FgohrGYCMxGwXxnr/view?usp=sharing" target="_blank">↗ PDF</a>
+  </div>
+</div>
+
+<div class="section-divider" style="margin-top:2rem;"><span>Robust Learning &amp; Forecasting</span></div>
+
+<div class="research-entry">
+  <div class="entry-title">Hybrid Minkowski–Log-Cosh Loss for Robust LSTM Forecasting</div>
+  <div class="entry-meta">MSc Thesis · PAUSTI / JKUAT · 2023–2025 · Published in IEEE Access 2025</div>
+  <div class="entry-desc">
+    Combined Minkowski and log-cosh terms into a single differentiable loss function to balance sensitivity to typical errors with robustness to outliers. Validated on 11 years of national malaria surveillance data — reduces MAPE by 13% relative to MSE baseline and cuts mispredicted cases by ~117,000 in outlier-contaminated scenarios.
+  </div>
+  <div class="entry-links">
+    <a href="https://doi.org/10.1109/ACCESS.2025.3626795" target="_blank">↗ IEEE Access</a>
+    <a href="https://github.com/Abalo39/Hybrid-Minkowski-Logcosh-Loss-LSTM" target="_blank">↗ Code</a>
+  </div>
+</div>
+
+<div class="section-divider" style="margin-top:2rem;"><span>Applied ML &amp; NLP</span></div>
+
+<div class="research-entry">
+  <div class="entry-title">Multilingual Polarization Detection — SemEval-2026 Task 9</div>
+  <div class="entry-meta">Shared Task · Applied NLP · AIMS South Africa · Nov–Dec 2025</div>
+  <div class="entry-desc">
+    Language-specific transformer ensemble (English/Swahili) with weak keyword supervision and class-imbalance-aware weighted losses. Achieved macro-F1 0.78 overall and <strong>0.82 on Swahili</strong>. Submitted and evaluated on the Codabench shared-task benchmarking platform.
+  </div>
+  <div class="entry-links">
+    <a href="https://drive.google.com/file/d/1MBkHzlyalS6FKquRAf9KACh2qj2DIo2U/view?usp=sharing" target="_blank">↗ PDF</a>
+  </div>
+</div>
+
+<div class="research-entry">
+  <div class="entry-title">Scalable Recommenders on MovieLens-32M</div>
+  <div class="entry-meta">Systems-Scale ML · AIMS South Africa · Nov 2025–Jan 2026</div>
+  <div class="entry-desc">
+    Sparsity-aware Alternating Least Squares (ALS) recommendation framework extended toward content-aware fusion. Built to handle 32M ratings efficiently with GPU acceleration.
+  </div>
+  <div class="entry-links">
+    <a href="https://drive.google.com/file/d/1piNIAt51nFnq8Z7reXhTCppNQ_-H5X8u/view?usp=sharing" target="_blank">↗ PDF</a>
+    <a href="https://github.com/Abalo39/Machine_learning_at_scale" target="_blank">↗ Code</a>
+  </div>
+</div>
+
+<div class="section-divider" style="margin-top:2rem;"><span>Epidemiological Modelling</span></div>
+
+<div class="research-entry">
+  <div class="entry-title">Mpox Transmission Dynamics — South Kivu, DRC</div>
+  <div class="entry-meta">MMED Clinic · ICI3D / SACEMA, Stellenbosch University · Jun 2026</div>
+  <div class="entry-desc">
+    Compartmental (SIR/SEIR and stochastic SEIRV) modelling, parameter estimation, and model fitting for Mpox transmission dynamics in South Kivu, DRC. Built R-based data cleaning pipelines and delivered a Beamer presentation as part of the ICI3D MMED programme.
+  </div>
+  <div class="entry-links">
+    <a href="https://drive.google.com/file/d/15HbvkZ-1JzCBfbTrvKYJilkHFa5iqwfy/view?usp=sharing" target="_blank">↗ Certificate</a>
+  </div>
+</div>

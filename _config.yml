@@ -27,16 +27,16 @@ author:
   pronouns: ""
   bio: |
     Google DeepMind Scholar |
-    M.Sc. Mathematics (PAUSTI, African Union Scholar) |
-    MSc in AI for Science at Stellenbosch University
-  location: "Cape Town, South Africa"
-  employer: "AIMS, South Africa"
+    MSc AI for Science, Stellenbosch / AIMS |
+    MSc Mathematics, PAUSTI (African Union Scholar)
+  location: "Lomé, Togo"
+  employer: "ESAM Lomé · AIMS South Africa"
   email: "kouyakou@aims.ac.za"
 
   # Academic profiles
   googlescholar: "https://scholar.google.com/citations?hl=en&user=RtYAMMoAAAAJ"
   orcid: "https://orcid.org/0009-0005-4050-5040"
-  researchgate: "Kouyakou-Abalo-Simsoba"
+  researchgate: "https://www.researchgate.net/profile/Kouyakou-Abalo-Simsoba"
 
   # Code & social
   github: "Abalo39"
@@ -204,7 +204,7 @@ sass:
 # ----------------------
 # Output
 # ----------------------
-timezone: Africa/Johannesburg
+timezone: Africa/Abidjan
 
 # ----------------------
 # Plugins (GitHub Pages safe)

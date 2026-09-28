@@ -1,41 +1,66 @@
 ---
-layout: archive
-title: "Teaching"
+layout: single
+title: "Teaching &amp; Mentoring"
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+<p style="font-family:var(--font-serif);font-size:1.02rem;line-height:1.8;margin-bottom:1.5rem;color:var(--global-text-color);">
+  I am passionate about mathematics education and science communication. My teaching spans university-level courses, secondary school, and graduate tutoring across Togo and Kenya.
+</p>
 
-  <!-- BLUE SECTION TITLE (theme-controlled, untouched) -->
-  <h2 class="archive__item-title" itemprop="headline">
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </h2>
+<div class="section-divider"><span>University Lecturing</span></div>
 
-  <!-- META LINE (no commas, no duplication) -->
-  {% if post.venue or post.location or post.date %}
-  <p class="page__meta">
-    {% if post.venue %}{{ post.venue }}{% endif %}
-    {% if post.location %}
-      {% if post.venue %} · {% endif %}{{ post.location }}
-    {% endif %}
-    {% if post.date %}
-      {% if post.venue or post.location %} · {% endif %}{{ post.date | date: "%Y" }}
-    {% endif %}
-  </p>
-  {% endif %}
-
-  <!-- BODY CONTENT: SLIGHTLY LARGER, READABLE -->
-  <div class="archive__item-excerpt" itemprop="text">
-    <div style="font-size: 1.12rem; line-height: 1.75;">
-      {{ post.content }}
-    </div>
+<div class="teaching-card">
+  <div class="tc-title">Mathematical Tools for Software Engineering (UE MVA003)</div>
+  <div class="tc-meta">Lecturer · École Supérieure d'Audit et de Management (ESAM), Lomé · Sept 2026 – Present · 72 h · 6 ECTS · LP157 (first-year Licence professionnelle)</div>
+  <div class="tc-body">
+    <p>Designed and deliver a comprehensive discrete mathematics course grounded in computing applications. Topics covered:</p>
+    <ul>
+      <li>Set theory, relations, and functions — applied to data modelling and type systems</li>
+      <li>Combinatorics and probability — keyspace counting, system reliability analysis</li>
+      <li>Arithmetic and number theory — cryptographic foundations (RSA, modular arithmetic)</li>
+      <li>Boolean algebra and logic — digital circuit design, SAT problems</li>
+      <li>Graph theory and induction — task-dependency ordering (topological sort), algorithmic proofs</li>
+    </ul>
+    <p>Each unit is grounded in a concrete computing application so students see why the mathematics matters before working through the theory.</p>
   </div>
+</div>
 
-  <hr>
+<div class="section-divider" style="margin-top:2rem;"><span>Graduate Tutoring</span></div>
 
-</article>
-{% endfor %}
+<div class="teaching-card">
+  <div class="tc-title">Inferential Statistics &amp; Optimization</div>
+  <div class="tc-meta">Graduate Tutor (Volunteer) · Big Data Master's Programme · École Polytechnique de Lomé · 2022</div>
+  <div class="tc-body">
+    <p>Taught inferential statistics and convex optimization (Lagrange multipliers, KKT conditions) to Master Big Data students. Facilitated weekly problem-solving sessions reinforcing methodological and theoretical foundations.</p>
+    <ul>
+      <li>100% pass rate in inferential statistics; ~80% in optimization</li>
+      <li>Developed custom problem sets bridging theory and real data applications</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section-divider" style="margin-top:2rem;"><span>Secondary School Teaching</span></div>
+
+<div class="teaching-card">
+  <div class="tc-title">Mathematics &amp; Physics</div>
+  <div class="tc-meta">Teacher · Public High Schools, Kara, Togo · 2019 – 2023</div>
+  <div class="tc-body">
+    <p>Delivered secondary-level instruction in advanced mathematics and physics with emphasis on conceptual understanding and systematic problem-solving.</p>
+    <ul>
+      <li>Improved class average by approximately 3 points through targeted lesson plans and practice materials</li>
+      <li>Mentored students for competitive national and international scholarships</li>
+    </ul>
+    <p><strong>Mathematics:</strong> Probability &amp; combinatorics, set theory, proof techniques, polynomial and rational functions, limits, continuity, differentiability, complex numbers, sequences.</p>
+    <p><strong>Physics:</strong> Kinematics, Newtonian dynamics, waves, electrostatics, AC/RLC circuits, thermodynamics.</p>
+  </div>
+</div>
+
+<div class="section-divider" style="margin-top:2rem;"><span>Open to Teaching</span></div>
+
+<p style="font-family:var(--font-serif);font-size:1rem;line-height:1.8;color:var(--global-text-color);">
+  I am open to part-time or <em>vacataire</em> instructor positions in <strong>statistics, probability, econometrics, machine learning,</strong> and <strong>applied data science</strong>. Please reach me at <a href="mailto:kouyakou@aims.ac.za">kouyakou@aims.ac.za</a>.
+</p>

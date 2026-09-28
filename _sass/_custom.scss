@@ -1,0 +1,528 @@
+/* ==========================================================================
+   SIMSOBA RESEARCH — Custom stylesheet
+   Loaded last in main.scss; overrides AcademicPages defaults.
+   ========================================================================== */
+
+/* ── 1. Global typography ── */
+body {
+  font-family: var(--font-sans);
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── 2. Masthead ── */
+.masthead {
+  background: #ffffff !important;
+  border-bottom: 1px solid var(--border) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+
+  a, a:visited {
+    color: var(--navy-mid) !important;
+    font-family: var(--font-sans) !important;
+    font-size: 0.86rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.005em !important;
+    transition: color 0.15s !important;
+    text-decoration: none !important;
+  }
+
+  a:hover { color: var(--accent) !important; }
+
+  .masthead__menu-item--lg a {
+    font-size: 0.92rem !important;
+    font-weight: 600 !important;
+    color: var(--navy) !important;
+  }
+}
+
+.masthead__menu-item.selected a {
+  color: var(--accent) !important;
+  border-bottom: 2px solid var(--accent) !important;
+  font-weight: 600 !important;
+}
+
+.masthead__menu-item.selected a:hover {
+  color: var(--accent) !important;
+  border-bottom: 2px solid var(--accent) !important;
+}
+
+/* ── 3. Sidebar ── */
+.sidebar {
+  background: #f8fafc !important;
+  border-right: 1px solid var(--border) !important;
+}
+
+.author__avatar img {
+  border-radius: 50% !important;
+  border: 2px solid var(--border-dark) !important;
+  padding: 3px !important;
+  background: #ffffff !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08) !important;
+}
+
+.author__name {
+  font-family: var(--font-sans) !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: var(--navy) !important;
+  line-height: 1.3 !important;
+}
+
+.author__bio {
+  font-family: var(--font-sans) !important;
+  font-size: 0.79rem !important;
+  color: var(--muted) !important;
+  line-height: 1.55 !important;
+}
+
+.author__urls a {
+  color: var(--muted) !important;
+  font-family: var(--font-sans) !important;
+  font-size: 0.82rem !important;
+  transition: color 0.15s !important;
+
+  &:hover { color: var(--accent) !important; }
+}
+
+.author__desktop {
+  color: var(--muted) !important;
+  font-size: 0.8rem !important;
+  font-family: var(--font-sans) !important;
+}
+
+.author__urls-wrapper button.btn {
+  border: 1px solid var(--border-dark) !important;
+  background: #ffffff !important;
+  color: var(--muted) !important;
+  border-radius: 5px !important;
+  font-size: 0.79rem !important;
+  font-family: var(--font-sans) !important;
+  box-shadow: none !important;
+}
+
+/* ── 4. Page content ── */
+.page__content {
+  font-family: var(--font-serif) !important;
+  font-size: 1.06rem !important;
+  line-height: 1.82 !important;
+  color: var(--global-text-color) !important;
+
+  p { margin-bottom: 1.1em; font-family: var(--font-serif); }
+
+  strong { font-weight: 600; color: var(--navy); }
+
+  a {
+    color: var(--accent) !important;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans) !important;
+    color: var(--navy) !important;
+    font-weight: 600 !important;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 2rem 0;
+  }
+}
+
+/* Page title */
+.page__title {
+  font-family: var(--font-serif) !important;
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  color: var(--navy) !important;
+  line-height: 1.2 !important;
+  margin-bottom: 0.2em !important;
+}
+
+/* ── 5. Research interest chips ── */
+.research-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0.5rem 0 1.25rem;
+
+  .chip {
+    display: inline-block;
+    background: var(--chip-bg);
+    border: 1px solid var(--chip-border);
+    color: var(--chip-text);
+    font-size: 0.78rem;
+    font-family: var(--font-sans);
+    font-weight: 400;
+    padding: 3px 11px;
+    border-radius: 20px;
+    line-height: 1.6;
+
+    &.accent {
+      background: var(--chip-acc-bg);
+      border-color: var(--chip-acc-bdr);
+      color: var(--chip-acc-txt);
+      font-weight: 500;
+    }
+  }
+}
+
+/* ── 6. Publication cards ── */
+.pub-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 1.1rem 1.3rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+
+  &:hover {
+    border-color: var(--card-hover);
+    box-shadow: 0 2px 10px rgba(26,86,196,0.08);
+  }
+
+  .pub-title {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    color: var(--navy);
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0 0 0.25rem;
+    display: block;
+  }
+
+  .pub-authors {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin: 0 0 0.2rem;
+  }
+
+  .pub-venue {
+    font-family: var(--font-serif);
+    font-size: 0.82rem;
+    color: var(--accent);
+    font-style: italic;
+    margin: 0 0 0.55rem;
+  }
+
+  .pub-links {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    a {
+      font-family: var(--font-sans);
+      font-size: 0.74rem;
+      font-weight: 500;
+      color: var(--muted) !important;
+      border: 1px solid var(--border-dark);
+      padding: 2px 9px;
+      border-radius: 4px;
+      text-decoration: none !important;
+      transition: color 0.15s, border-color 0.15s;
+
+      &:hover {
+        color: var(--accent) !important;
+        border-color: var(--accent);
+      }
+
+      &.primary {
+        color: var(--accent) !important;
+        border-color: var(--chip-acc-bdr);
+        background: var(--chip-acc-bg);
+        &:hover { background: var(--accent); color: #fff !important; border-color: var(--accent); }
+      }
+    }
+  }
+}
+
+/* ── 7. Research entry cards (for projects/research page) ── */
+.research-entry {
+  border-left: 3px solid var(--accent);
+  padding: 0.6rem 0 0.6rem 1.1rem;
+  margin-bottom: 1.5rem;
+
+  .entry-title {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0 0 0.2rem;
+  }
+
+  .entry-meta {
+    font-family: var(--font-sans);
+    font-size: 0.76rem;
+    color: var(--muted);
+    margin: 0 0 0.4rem;
+  }
+
+  .entry-desc {
+    font-family: var(--font-serif);
+    font-size: 0.97rem;
+    color: var(--global-text-color);
+    line-height: 1.75;
+    margin: 0;
+  }
+
+  .entry-links {
+    margin-top: 0.45rem;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    a {
+      font-family: var(--font-sans);
+      font-size: 0.74rem;
+      color: var(--accent) !important;
+      border: 1px solid var(--chip-acc-bdr);
+      background: var(--chip-acc-bg);
+      padding: 2px 9px;
+      border-radius: 4px;
+      text-decoration: none !important;
+      font-weight: 500;
+      transition: background 0.15s, color 0.15s;
+
+      &:hover { background: var(--accent); color: #fff !important; }
+    }
+  }
+}
+
+/* ── 8. News / timeline list ── */
+.news-timeline {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 0 1rem !important;
+
+  li {
+    display: grid;
+    grid-template-columns: 85px 1fr;
+    gap: 0 0.9rem;
+    margin-bottom: 0.75rem;
+    align-items: baseline;
+    font-family: var(--font-sans);
+
+    .date {
+      font-size: 0.74rem;
+      font-weight: 500;
+      color: var(--muted);
+      white-space: nowrap;
+      padding-top: 1px;
+    }
+
+    .desc {
+      font-size: 0.87rem;
+      color: var(--global-text-color);
+      line-height: 1.55;
+
+      strong { color: var(--navy); }
+
+      a { color: var(--accent) !important; text-decoration: none;
+          &:hover { text-decoration: underline; } }
+    }
+  }
+}
+
+/* ── 9. Awards / stat highlights ── */
+.award-list {
+  list-style: none !important;
+  padding: 0 !important;
+
+  li {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    margin-bottom: 0.65rem;
+    font-family: var(--font-serif);
+    font-size: 0.97rem;
+    line-height: 1.65;
+
+    &::before {
+      content: '★';
+      color: #d97706;
+      font-size: 0.7rem;
+      margin-top: 0.35em;
+      flex-shrink: 0;
+    }
+
+    a { color: var(--accent) !important; text-decoration: none;
+        &:hover { text-decoration: underline; } }
+  }
+}
+
+/* ── 10. Skills grid ── */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin: 0.5rem 0 1.25rem;
+
+  .skill-block {
+    background: var(--chip-bg);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 0.75rem 1rem;
+
+    .skill-label {
+      font-family: var(--font-sans);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.35rem;
+    }
+
+    .skill-items {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+  }
+}
+
+/* ── 11. Teaching entry card ── */
+.teaching-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.1rem 1.3rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.15s;
+
+  &:hover { border-color: var(--accent); }
+
+  .tc-title {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin: 0 0 0.2rem;
+  }
+
+  .tc-meta {
+    font-family: var(--font-sans);
+    font-size: 0.76rem;
+    color: var(--muted);
+    margin: 0 0 0.5rem;
+  }
+
+  .tc-body {
+    font-family: var(--font-serif);
+    font-size: 0.97rem;
+    line-height: 1.72;
+    color: var(--global-text-color);
+  }
+}
+
+/* ── 12. CV download button ── */
+a.cv-btn, .cv-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background: var(--accent) !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+  padding: 8px 18px !important;
+  font-size: 0.84rem !important;
+  font-weight: 500 !important;
+  font-family: var(--font-sans) !important;
+  text-decoration: none !important;
+  border: none !important;
+  transition: background 0.15s, transform 0.1s !important;
+  margin-bottom: 1.5rem !important;
+  box-shadow: 0 1px 3px rgba(26,86,196,0.15) !important;
+
+  &:hover {
+    background: var(--accent-dim) !important;
+    transform: translateY(-1px) !important;
+    color: #fff !important;
+  }
+}
+
+/* ── 13. Section dividers (used in page content) ── */
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 1.8rem 0 1rem;
+
+  span {
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--section-clr);
+    white-space: nowrap;
+  }
+
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--section-line);
+  }
+}
+
+/* ── 14. Footer ── */
+.page__footer {
+  background: var(--global-footer-bg-color) !important;
+  border-top: 1px solid var(--border) !important;
+
+  footer, footer a {
+    font-family: var(--font-sans) !important;
+    font-size: 0.77rem !important;
+    color: var(--muted) !important;
+  }
+}
+
+/* ── 15. Archive pages (publications, teaching, cv) ── */
+.archive__item-title {
+  font-family: var(--font-sans) !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  color: var(--navy) !important;
+
+  a { color: var(--accent) !important; text-decoration: none !important;
+      &:hover { text-decoration: underline !important; } }
+}
+
+.archive__item-excerpt {
+  font-family: var(--font-serif) !important;
+  font-size: 0.98rem !important;
+  line-height: 1.75 !important;
+  color: var(--global-text-color) !important;
+}
+
+.page__meta {
+  font-family: var(--font-sans) !important;
+  font-size: 0.78rem !important;
+  color: var(--muted) !important;
+}
+
+/* ── 16. Tables ── */
+table {
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+
+  th { background: var(--lighter-gray) !important; color: var(--navy) !important; font-weight: 600; }
+  td { color: var(--global-text-color); }
+}
+
+/* ── 17. Code ── */
+code, pre {
+  font-family: var(--font-mono) !important;
+  font-size: 0.85em !important;
+  background: var(--global-code-background-color) !important;
+  border-radius: 4px;
+}
+
+/* ── 18. Disable any JS dark mode that may fire ── */
+html, html[data-theme="dark"], html[data-theme="light"] {
+  color-scheme: light only;
+}
