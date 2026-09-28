@@ -12,7 +12,7 @@ locale: "en-US"
 title: "Kouyakou-Abalo SIMSOBA"
 title_separator: "-"
 name: "Kouyakou-Abalo SIMSOBA"
-description: "Google DeepMind Scholar | AI for Science Researcher"
+description: "Google DeepMind Scholar | Trustworthy Medical Artificial Intelligence | Independent Researcher"
 
 url: "https://simsoba-research.github.io"
 baseurl: ""
@@ -25,9 +25,9 @@ author:
   avatar: "profile.png"
   name: "Kouyakou-Abalo SIMSOBA"
   pronouns: ""
-  bio: "Google DeepMind Scholar · Medical Image Analysis & Trustworthy AI"
+  bio: "Google DeepMind Scholar · Trustworthy Medical Artificial Intelligence"
   location: "Lomé, Togo"
-  employer: "Lecturer, ESAM Lomé"
+  employer: "Independent Researcher · Lecturer, ESAM Lomé"
   email: "kouyakou@aims.ac.za"
 
   # Academic profiles

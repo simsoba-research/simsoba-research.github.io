@@ -9,7 +9,7 @@ author_profile: true
 
 <div class="section-divider"><span>Profile</span></div>
 
-<p class="lede" style="font-size:1.02rem;">AI researcher and mathematician holding two Master's degrees from AIMS South Africa and PAUSTI. First author of a peer-reviewed <em>IEEE Access</em> paper on robust LSTM forecasting, with a second paper under review at <strong>ICLR 2027</strong>. My M.Sc. thesis produced <strong>MultiMagNet</strong>, a four-stream CNN fusion architecture for breast cancer histopathology (AUC 0.935) whose reliability was assessed through calibration, uncertainty quantification and OOD detection. Fluent in <strong>Python, PyTorch and TensorFlow</strong>, with GPU/HPC training experience. <strong>Google DeepMind Scholar</strong> (top 40, Africa) and <strong>African Union Scholar</strong> (top 9, Mathematics/Statistics). Seeking a fully funded Ph.D. in machine learning, statistics or trustworthy AI, available to start in 2027.</p>
+<p class="lede" style="font-size:1.02rem;">AI researcher and mathematician holding two Master's degrees from AIMS South Africa and PAUSTI. First author of a peer-reviewed <em>IEEE Access</em> paper on robust LSTM forecasting, with a second paper under review at <strong>ICLR 2027</strong>. My M.Sc. thesis produced <strong>MultiMagNet</strong>, a four-stream CNN fusion architecture for breast cancer histopathology (AUC 0.935) whose reliability was assessed through calibration, uncertainty quantification and OOD detection. Fluent in <strong>Python, PyTorch and TensorFlow</strong>, with GPU/HPC training experience. <strong>Google DeepMind Scholar</strong> (top 40, Africa) and <strong>African Union Scholar</strong> (top 9, Mathematics/Statistics). Independent researcher since July 2026 in <strong>trustworthy medical artificial intelligence</strong>, and Lecturer at ESAM Lomé. Seeking a fully funded Ph.D. in machine learning, statistics or trustworthy AI, available to start in 2027.</p>
 
 <div class="section-divider"><span>Education</span></div>
 
@@ -61,6 +61,11 @@ author_profile: true
 <div class="section-divider"><span>Research Experience</span></div>
 
 <ul class="timeline compact">
+<li class="tl-item now">
+<div class="tl-head"><span class="tl-title">Independent Researcher</span><span class="tl-when">Jul 2026 – present</span></div>
+<div class="tl-meta">Trustworthy Medical Artificial Intelligence · Lomé, Togo</div>
+<div class="tl-body"><p>Leading my own research programme on reliable medical AI: multimodal fusion of histopathology and clinical data, generative data augmentation, calibration and human-AI deferral.</p></div>
+</li>
 <li class="tl-item now">
 <div class="tl-head"><span class="tl-title">MultiMagNet: Multimodal Diagnosis and Staging</span><span class="tl-when">Jun 2026 – present</span></div>
 <div class="tl-meta">Trustworthy ML &amp; Medical AI · M.Sc. thesis extension</div>
@@ -158,7 +163,7 @@ author_profile: true
 
 <ul class="timeline compact">
 <li class="tl-item now">
-<div class="tl-head"><span class="tl-title">Invited Speaker, ACIAM</span><span class="tl-when">Oct 2026 · upcoming</span></div>
+<div class="tl-head"><span class="tl-title">Invited Speaker, ACIAM</span><span class="tl-when">5–9 Oct 2026 · upcoming</span></div>
 <div class="tl-meta">African Conference for Industrial and Applied Mathematics · Ouagadougou, Burkina Faso</div>
 <div class="tl-links"><a href="https://drive.google.com/file/d/1Y8lsSiYJ6imiWvUYQjWp2Bpvv_ULsgPG/view?usp=sharing" target="_blank" rel="noopener">Letter ↗</a></div>
 </li>
@@ -172,4 +177,14 @@ author_profile: true
 <div class="tl-meta">Google DeepMind / Google Skills · six modules on LLM training and fine-tuning, LoRA, GPU-accelerated training</div>
 <div class="tl-links"><a href="https://www.skills.google/public_profiles/77badf7c-2029-47f9-a95e-7ff25c3dd7cd" target="_blank" rel="noopener">Badges ↗</a></div>
 </li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">MMED Clinic, ICI3D / SACEMA</span><span class="tl-when">15 – 26 Jun 2026</span></div>
+<div class="tl-meta">Two-week infectious-disease modelling clinic · AIMS South Africa, Muizenberg</div>
+</li>
+<li class="tl-item ">
+<div class="tl-head"><span class="tl-title">Data Science and Scientific Computing FDP</span><span class="tl-when">Jan 2024</span></div>
+<div class="tl-meta">Faculty Development Programme · Central University of Punjab, India</div>
+</li>
 </ul>
+
+<p class="tl-meta">Full details and official links: <a href="/conferences/">Conferences →</a></p>

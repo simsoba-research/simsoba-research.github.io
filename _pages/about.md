@@ -9,7 +9,7 @@ author_profile: true
 mathjax: false
 ---
 
-<p class="lede">I am <strong>Kouyakou-Abalo SIMSOBA</strong>, a Togolese AI researcher and mathematician building machine learning that can be trusted in medicine and science. I hold two Master's degrees: an <strong>M.Sc. in Artificial Intelligence for Science</strong> from AIMS South Africa and Stellenbosch University, as a <strong>Google DeepMind Scholar</strong>, and an <strong>M.Sc. in Mathematics (Statistics)</strong> from PAUSTI and JKUAT in Kenya, as an <strong>African Union Scholar</strong>. I live in Lomé, where I lecture discrete mathematics to future software engineers at ESAM.</p>
+<p class="lede">I am <strong>Kouyakou-Abalo SIMSOBA</strong>, a Togolese AI researcher and mathematician building machine learning that can be trusted in medicine and science. I hold two Master's degrees: an <strong>M.Sc. in Artificial Intelligence for Science</strong> from AIMS South Africa and Stellenbosch University, as a <strong>Google DeepMind Scholar</strong>, and an <strong>M.Sc. in Mathematics (Statistics)</strong> from PAUSTI and JKUAT in Kenya, as an <strong>African Union Scholar</strong>. Since July 2026 I have also worked as an <strong>independent researcher</strong>, continuing my research programme on trustworthy medical artificial intelligence while I lecture discrete mathematics to future software engineers at ESAM Lomé, where I live.</p>
 
 <p class="lede">I came to research through the classroom. I taught mathematics and physics in Togolese secondary schools for four years before moving into statistics and machine learning, and that habit of explaining things plainly still shapes how I write papers, build models and design courses.</p>
 
@@ -32,14 +32,14 @@ mathjax: false
 
 <div class="section-divider"><span>Teaching</span></div>
 
-<p class="lede" style="font-size:1.02rem;">I began as a secondary-school teacher of mathematics and physics in Kara (2019–2023), tutored graduate Big Data students in statistics and convex optimization at École Polytechnique de Lomé, and now teach <em>Mathematical Tools for Software Engineering</em> (72 h, 6 ECTS) at ESAM Lomé. Each chapter starts from a computing problem and builds the mathematics to solve it. <a href="/teaching/">See the syllabus →</a></p>
+<p class="lede" style="font-size:1.02rem;">I began as a secondary-school teacher of mathematics and physics in Kara (2019–2023), tutored graduate Big Data students in statistics and convex optimization at École Polytechnique de Lomé, and now teach <em>Mathematical Tools for Software Engineering</em> (72 h, 6 ECTS) at ESAM Lomé. Each chapter starts from a computing problem and builds the mathematics to solve it. <a href="/teaching/">See the syllabus →</a> · <a href="https://drive.google.com/file/d/1P10gtZbrfmMeYznHm6qZdrVbomB485W1/view?usp=sharing" target="_blank" rel="noopener">Syllabus PDF ↗</a> · <a href="https://drive.google.com/file/d/1PaXq2w45oIoPdA6XsyM6MSWV55vJnHQv/view?usp=sharing" target="_blank" rel="noopener">Course notes ↗</a></p>
 
 <div class="section-divider"><span>Journey</span></div>
 
 <ul class="timeline compact">
 <li class="tl-item now">
 <span class="tl-date">2026</span>
-<div class="tl-body"><strong>Lecturer at ESAM Lomé</strong> and <strong>invited speaker at ACIAM</strong>, Ouagadougou (Oct). Completed the AIMS M.Sc. with Distinction and submitted MultiMagNet to ICLR 2027.</div>
+<div class="tl-body"><strong>Independent researcher</strong> (from July), <strong>Lecturer at ESAM Lomé</strong> and <strong>invited speaker at ACIAM</strong>, Ouagadougou (Oct). Completed the AIMS M.Sc. with Distinction and submitted MultiMagNet to ICLR 2027.</div>
 </li>
 <li class="tl-item ">
 <span class="tl-date">2025</span>
@@ -70,9 +70,9 @@ mathjax: false
 <div class="section-divider"><span>Research Interests</span></div>
 
 <div class="interests">
-<span class="hi">Medical Image Analysis</span>
+<span class="hi">Trustworthy Medical Artificial Intelligence</span>
 <span class="hi">Histopathology &amp; Ultrasound</span>
-<span class="hi">Trustworthy AI</span>
+<span class="hi">Reliable &amp; Responsible AI</span>
 <span>Multi-Magnification Fusion</span>
 <span>Multimodal Learning</span>
 <span>Uncertainty Quantification</span>
@@ -102,6 +102,10 @@ mathjax: false
 </li>
 </ul>
 
+<div class="section-divider"><span>Conferences</span></div>
+
+<p class="lede" style="font-size:1.02rem;">I present and learn at African and international meetings in AI and applied mathematics: an invited talk at <strong>ACIAM 2026</strong>, <strong>Deep Learning Indaba 2026</strong> in Lagos, and the <strong>MMED epidemiological modelling clinic</strong>. <a href="/conferences/">Read the full conference record →</a></p>
+
 <div class="section-divider"><span>Awards &amp; Honors</span></div>
 
 <ul class="award-list">
@@ -116,7 +120,7 @@ mathjax: false
 
 <ul class="timeline compact">
 <li class="tl-item ">
-<span class="tl-date">Oct 2026</span>
+<span class="tl-date">5–9 Oct 2026</span>
 <div class="tl-body"><strong>Invited Speaker</strong>, African Conference for Industrial and Applied Mathematics (ACIAM), Ouagadougou, Burkina Faso. <a href="https://drive.google.com/file/d/1Y8lsSiYJ6imiWvUYQjWp2Bpvv_ULsgPG/view?usp=sharing" target="_blank" rel="noopener">Letter ↗</a></div>
 </li>
 <li class="tl-item ">
@@ -130,6 +134,10 @@ mathjax: false
 <li class="tl-item ">
 <span class="tl-date">Jul 2026</span>
 <div class="tl-body">Completed the <strong>M.Sc. in AI for Science</strong> with Distinction, and submitted the thesis to <strong>ICLR 2027</strong> as first author. <a href="https://drive.google.com/file/d/1ye2h_KYmO1OAUOycDggAVs0YdAhbJfKy/view?usp=sharing" target="_blank" rel="noopener">Thesis ↗</a> <a href="https://openreview.net/forum?id=ogfxZ1EZdq" target="_blank" rel="noopener">OpenReview ↗</a></div>
+</li>
+<li class="tl-item ">
+<span class="tl-date">Jul 2026</span>
+<div class="tl-body">Began work as an <strong>independent researcher</strong>, pursuing the multimodal extension of MultiMagNet. <a href="/projects/">Projects →</a></div>
 </li>
 <li class="tl-item ">
 <span class="tl-date">Jul 2026</span>
@@ -160,4 +168,4 @@ mathjax: false
 
 <div class="section-divider"><span>Get in Touch</span></div>
 
-<p class="lede" style="font-size:1.02rem;">I am looking for a <strong>fully funded Ph.D. starting in 2027</strong> in machine learning, statistics or trustworthy AI, ideally in medical imaging. I am also open to research collaborations and to part-time <em>vacataire</em> teaching in statistics, probability, econometrics and machine learning. Write to me at <a href="mailto:kouyakou@aims.ac.za">kouyakou@aims.ac.za</a>.</p>
+<p class="lede" style="font-size:1.02rem;">I am looking for a <strong>fully funded Ph.D. starting in 2027</strong> in machine learning, statistics or trustworthy AI, ideally in trustworthy medical artificial intelligence. I am also open to research collaborations and to part-time <em>vacataire</em> teaching in statistics, probability, econometrics and machine learning. Write to me at <a href="mailto:kouyakou@aims.ac.za">kouyakou@aims.ac.za</a>.</p>
