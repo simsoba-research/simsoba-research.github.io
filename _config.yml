@@ -10,7 +10,7 @@
 # ----------------------
 locale: "en-US"
 title: "Kouyakou-Abalo SIMSOBA"
-title_separator: "-"
+title_separator: "|"
 name: "Kouyakou-Abalo SIMSOBA"
 description: "Google DeepMind Scholar | Trustworthy Medical Artificial Intelligence | Independent Researcher"
 
@@ -25,7 +25,7 @@ author:
   avatar: "profile.png"
   name: "Kouyakou-Abalo SIMSOBA"
   pronouns: ""
-  bio: "AI Researcher · Trustworthy Medical AI · Ph.D. applicant 2027"
+  bio: "Google DeepMind Scholar · Trustworthy Medical Artificial Intelligence"
   location: "Lomé, Togo"
   employer: "Independent Researcher · Lecturer, ESAM Lomé"
   email: "kouyakou@aims.ac.za"
