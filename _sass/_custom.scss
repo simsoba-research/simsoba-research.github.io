@@ -21,20 +21,40 @@ body {
   a, a:visited {
     color: var(--navy-mid) !important;
     font-family: var(--font-sans) !important;
-    font-size: 0.86rem !important;
+    font-size: 0.81rem !important;
     font-weight: 500 !important;
-    letter-spacing: 0.005em !important;
+    letter-spacing: 0 !important;
     transition: color 0.15s !important;
     text-decoration: none !important;
+    white-space: nowrap !important;
   }
 
   a:hover { color: var(--accent) !important; }
 
   .masthead__menu-item--lg a {
-    font-size: 0.92rem !important;
-    font-weight: 600 !important;
+    font-size: 0.84rem !important;
+    font-weight: 700 !important;
     color: var(--navy) !important;
   }
+}
+
+/* Fit all tabs on one line */
+.greedy-nav .visible-links {
+  flex-wrap: nowrap !important;
+  gap: 0 !important;
+}
+
+.greedy-nav .visible-links li a {
+  padding: 0 0.65rem !important;
+}
+
+.greedy-nav .visible-links .masthead__menu-item--lg a {
+  padding: 0 0.9rem 0 0 !important;
+}
+
+/* Hide hamburger when all tabs fit */
+.greedy-nav button {
+  display: none !important;
 }
 
 .masthead__menu-item.selected a {

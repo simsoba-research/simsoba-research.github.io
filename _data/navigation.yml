@@ -1,7 +1,4 @@
 main:
-  - title: "About Me"
-    url: /
-
   - title: "Publications"
     url: /publications/
 
@@ -14,7 +11,7 @@ main:
   - title: "Conferences"
     url: /conferences/
 
-  - title: "Teaching & Mentoring"
+  - title: "Teaching"
     url: /teaching/
 
   - title: "CV"
